@@ -3,19 +3,19 @@ return
 	array(
 	
 	// CMS site ID
-	'siteID' => '47896',//'32864',
+	'siteID' => '65891',
 	
 	'dev' => 'new',
 
 	// Fonts
-	'typekitID' => '',//'xib8icl',
+	'typekitID' => 'tcx7fpp',
 	
 	//'useLocalNav' => true,
 		
 	//'phpErrorReporting' => E_ALL,
 	//'debug' => true,
 	
-	
+    'siteNameHeader'=>'Vassar | Review',
 	/**
 	 * Complete listing of configurations - turn on debug and see $configSettings
 	 *
