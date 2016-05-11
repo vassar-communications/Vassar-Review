@@ -15,7 +15,7 @@ return
 	//'phpErrorReporting' => E_ALL,
 	//'debug' => true,
 	
-    'siteNameHeader'=>'Vassar | Review',
+    'siteNameHeader'=>'Vassar <b class="pipe">|</b> Review',
 	/**
 	 * Complete listing of configurations - turn on debug and see $configSettings
 	 *

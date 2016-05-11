@@ -92,6 +92,12 @@ b {
     letter-spacing: .3em;
     text-align: center;
 }
+b.pipe {
+    font-size: 1.3em;
+    display: inline-block;
+    margin-left: -0.4em;
+    margin-right: -.4em;
+}
 /* Main page content */
 .u-lMain {
 	font-size: 100%;
@@ -145,9 +151,9 @@ b {
         font-size: 1.602em;
         font-weight: $fontWeightNormal;
         width: 6em;
-        border-left: .05em solid $bgColor;
         padding-left: .5em;
         margin-top: 0;
+        text-align: left;
     }
     p.asideSect__cvrCred {
         font-size: .8em;
@@ -178,9 +184,9 @@ b {
 .u-SiteMap__level {
 	 margin: .5em 0;
 }
-
 .u-Masthead__siteName {
-    margin-top: 3rem;
+    margin-top: 2.2em;
+    margin-bottom: .9em
 }
 .u-NavSite [class*=icon-] {
     font-size: 1em;
@@ -201,6 +207,14 @@ b {
             font-family: $sans-serif;
             letter-spacing: .1em;
         }
+    }
+    .u-Figure--digiprev .u-Figure__caption {
+        font-size: 2em;
+        text-align:center;
+        font-family: $sans-serif;
+        margin-left: -16.5%;
+        margin-top: -16.5%;
+        padding-top: 11em;
     }
     .u-Excerpt__vrid {
         font-family: $sans-serif;
@@ -289,6 +303,7 @@ b {
         font-size: 1em;
         text-align: left;
         margin-top: 0;
+        margin-bottom: 0;
     }
     .u-NavSite__item {
         padding-left: .7em;
@@ -315,7 +330,8 @@ b {
 @media screen {
     .u-Figure--danaharel .u-Figure__caption,
     .Module--contact .Module__header,
-    .u-pageHome .Module--contact {
+    .u-pageHome .Module--contact,
+    .u-BreadCrumbs {
         display: none;
         visibility: hidden;
     }
@@ -341,6 +357,7 @@ b {
     }
     .u-lContent {
         padding: 0;
+        .gsc-control-wrapper-cse,
         h1, h2, h3, h4, h5, h6,
         .u-Excerpt__donateButton,
         .downloadButton,
@@ -388,6 +405,24 @@ b {
         }
         .u-Figure.u-Figure--digiprev {
             margin-bottom: 0;
+            position: relative;
+        }
+        .u-Figure--digiprev .u-Figure__caption {
+            top: 50%;
+            left: 50%;
+            width: 33%;
+            height: 33%;
+            position: absolute;
+        }
+        .dmp {
+            border: 0 !important;
+            clip: rect(1px 1px 1px 1px);
+            clip: rect(1px, 1px, 1px, 1px);
+            height: 1px !important;
+            padding: 0 !important;
+            overflow: hidden;
+            position: absolute !important;
+            width: 1px !important
         }
         .u-Video {
             padding-bottom: 36.5%;
@@ -447,6 +482,7 @@ b {
         float: none;
     }
     .u-lContent {
+        .gsc-control-wrapper-cse,
         h1, h2, h3, h4, h5, h6,
         .u-Excerpt__donateButton,
         .downloadButton,
@@ -500,7 +536,7 @@ b {
         width: 65%;
         float: none;
         position: fixed;
-        padding: 1.6% 3% 3% 0;
+        padding: 2.2% 3% 3% 0;
         top: 0;
         right: 0;
         left: auto;
@@ -558,6 +594,7 @@ b {
 }
 @media all and (min-width: $large) {
     .u-lContent {
+        .gsc-control-wrapper-cse,
         h1, h2, h3, h4, h5, h6,
         .u-Excerpt__donateButton,
         .downloadButton,
@@ -585,6 +622,7 @@ b {
         margin: 0;
     }
     .u-lContent {
+        .gsc-control-wrapper-cse,
         h1, h2, h3, h4, h5, h6,
         .u-Excerpt__donateButton,
         .downloadButton,
@@ -685,6 +723,15 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
     .downloadButton--link {
         border-radius: .1em;
     }
+    .u-Figure--digiprev .u-Figure__caption {
+         @include link-colors($bgColor, $fontColor, $linkColorActive, $bgColor, $fontColor);
+        background: transparent url(../images/2016/vassar-review-round-logo-light.png) no-repeat top center;
+        background-size: 100%;
+    }
+    .u-Figure--digiprev .u-Figure__caption:hover {
+        background: transparent url(../images/2016/vassar-review-round-logo-light-hover.png) no-repeat top center;
+        background-size: 100%;
+    }
 }
 .u-pageInner .u-lContent .u-Excerpt__donateButton {
     border-top: none;
@@ -716,6 +763,10 @@ h4.asideSect__vrid {
         border-bottom: 1px solid $linkColorActive;
     }
 }
+h4.asideSect__vrid {
+    border-left: .05em solid $bgColor;
+}
+
 @media all and (min-width: $small) {
     .u-lHeader,
     .u-lFooter {

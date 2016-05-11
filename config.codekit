@@ -66,7 +66,7 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 43483,
+		"initialSize": 30066,
 		"inputAbbreviatedPath": "\/assets\/images\/vassar-review-digital-preview.jpg",
 		"outputAbbreviatedPath": "\/assets\/images\/vassar-review-digital-preview.jpg",
 		"outputPathIsOutsideProject": 0,
@@ -91,6 +91,28 @@
 		"initialSize": 2383,
 		"inputAbbreviatedPath": "\/assets\/images\/vassar-review-excerpt-fade.png",
 		"outputAbbreviatedPath": "\/assets\/images\/vassar-review-excerpt-fade.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/vassar-review-round-logo-light-hover.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 0,
+		"inputAbbreviatedPath": "\/assets\/images\/vassar-review-round-logo-light-hover.png",
+		"outputAbbreviatedPath": "\/assets\/images\/vassar-review-round-logo-light-hover.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/vassar-review-round-logo-light.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 19438,
+		"inputAbbreviatedPath": "\/assets\/images\/vassar-review-round-logo-light.png",
+		"outputAbbreviatedPath": "\/assets\/images\/vassar-review-round-logo-light.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
