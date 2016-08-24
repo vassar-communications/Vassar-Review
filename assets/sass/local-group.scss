@@ -88,9 +88,11 @@ b {
 .u-Masthead__siteName {
     font-weight: $fontWeightNormal;
     text-transform: uppercase;
-    font-size: 1.5em;
+    font-size: 1.1em;
     letter-spacing: .3em;
     text-align: center;
+    margin-top: 3.2em;
+    margin-bottom: .9em
 }
 b.pipe {
     font-size: 1.3em;
@@ -184,10 +186,7 @@ b.pipe {
 .u-SiteMap__level {
 	 margin: .5em 0;
 }
-.u-Masthead__siteName {
-    margin-top: 2.2em;
-    margin-bottom: .9em
-}
+
 .u-NavSite [class*=icon-] {
     font-size: 1em;
 }
@@ -195,6 +194,9 @@ b.pipe {
     letter-spacing: .1em;
 }
 .u-lContent { 
+    .u-Figure {
+        margin: 0;
+    }
     .u-Figure__caption {
         font-family: $serif;
         text-align: center;
@@ -264,23 +266,55 @@ b.pipe {
 }
 .u-pageHome {
     .u-lContent {
-        h2:nth-of-type(1),
-        h3:nth-of-type(1) {
-            text-align: center;
-        }
-        h3:nth-of-type(1) {
-            margin-top: -.45em;
-            margin-left: 3.5em;
-            font-size: .98em;
-            font-family: $serif;
-            font-weight: $fontWeightNormal;
+        .introText {
+            padding: 1.5em;
+            h2,
+            h3 {
+                margin: 0;
+                width: 100%;
+            }
+            h2 {
+                font-size: 1.25em;
+            }
+            h3 {
+                font-family: "freight-text-pro","Georgia";
+                font-size: .98em;
+            }
         }
     }
 }
 .u-VCard--site .u-VCard__item.u-VCard__url {
      font: $fontWeightMedium 1em/1.2 $sans-serif;
 }
+.u-Figure .u-Figure__caption .u-Excerpt__donateButton {
+    border-top: none;
+    padding: 1em;
+    margin-top: 0;
+    img {
+        height: 1px;
+    }
+}
+.centerGraph {
+    text-align: center;
+}
+
 @media all and (min-width: $tiny) {
+    .u-Masthead__siteName {
+        font-size: 1.5em;
+        margin-top: 2.2em;
+    }
+    .u-pageHome {
+        .u-lContent {
+            .introText {
+                h2 {
+                    font-size: 1.602em;
+                }
+                h3 {
+                    margin-left: 2.2em;
+                }
+            }
+        }
+    }
 	.u-lMain {
 		font-size: 100%;
 	}
@@ -310,9 +344,17 @@ b.pipe {
     }
     .u-pageHome {
         .u-lContent {
-            h3:nth-of-type(1) {
-                margin-top: 1.5em;
-                margin-left: inherit;
+            .introText {
+                position: absolute;
+                z-index: 10;
+                right: 5%;
+                top: 7em;
+                padding: .75em;
+                h2,
+                h3 {
+                    text-align: right;
+                    margin-left: 0;
+                }
             }
             .u-Figure__caption {
                 text-align: left;
@@ -328,7 +370,6 @@ b.pipe {
  
 
 @media screen {
-    .u-Figure--danaharel .u-Figure__caption,
     .Module--contact .Module__header,
     .u-pageHome .Module--contact,
     .u-BreadCrumbs {
@@ -553,7 +594,7 @@ b.pipe {
         z-index: 20;
     }
     .u-lMain {
-        margin-top: 4.69em
+        margin-top: 0; 
     }
     .u-pageHome {
         .Module--contact .Module__name {
@@ -562,15 +603,15 @@ b.pipe {
         .u-lContent {
             h2:nth-of-type(1),
             h3:nth-of-type(1) {
-                position: absolute;
+                /* position: absolute;
                 right: 3%;
                 top: 6%;
                 width: 97%;
                 text-align: right;
-                z-index: 10;
+                z-index: 10; */
             }
             h3:nth-of-type(1) {
-                top: 6.5%;
+                /* top: 6.5%; */
             }
             .u-Figure {
                 position: relative;
@@ -583,6 +624,9 @@ b.pipe {
             .u-Figure--juliarandall .u-Figure__caption {
                 right: auto;
                 left: 3%;
+            }
+            .u-Figure--danaharel .u-Figure__caption {
+                right: 7%;
             }
         }
     }
@@ -777,4 +821,19 @@ h4.asideSect__vrid {
             color: $bgColor;
         }
     }
+    .u-pageHome {
+        .u-lContent {
+            .introText {
+                background-color: rgba(48, 48, 48, 0.52);
+                h2,
+                h3 {
+                    color: #fff;
+                }
+            }
+            .u-Figure__caption {
+                text-align: left;
+            }
+        }
+    }
+
 }
