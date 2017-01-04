@@ -228,13 +228,32 @@ b.pipe {
         font-size: 2em;
         margin-bottom: .1em;
     }
+    .u-Excerpt.u-Excerpt--callBar {
+        margin: 0;
+        padding: 1.5em 0 1em;
+        .u-Excerpt__paragraph {
+            font-size: .8em;
+        }
+        .u-Excerpt__title {
+            font-size: 1.1em;
+            margin-top: 0;
+        }
+        .u-Excerpt__call {
+            margin-bottom: 1em;
+            font-family: $sans-serif;
+            text-transform: uppercase;
+            letter-spacing: .3em;
+            font-size: .6em;
+        }
+    }
     .u-Excerpt__author {
         margin-bottom: 1em;
         font-style: italic;
         font-size: 1.43em;
     }
     .u-Excerpt__donateBotton--link,
-    .downloadButton--link {
+    .downloadButton--link,
+    .submissionButton--link {
         padding: .4em .7em;
         font-family: $sans-serif;
         text-transform: uppercase;
@@ -246,7 +265,8 @@ b.pipe {
         padding-top: 1.5em;
         margin-top: 2em;
     }
-    .downloadButton {
+    .downloadButton,
+    .submissionButton {
         margin-bottom: 1.5em;
         text-align: center;
     }
@@ -348,7 +368,7 @@ b.pipe {
                 position: absolute;
                 z-index: 10;
                 right: 5%;
-                top: 7em;
+                top: 20em;
                 padding: .75em;
                 h2,
                 h3 {
@@ -361,8 +381,28 @@ b.pipe {
             }
         }
     }
+    .u-lContent {
+        .u-Excerpt.u-Excerpt--callBar {
+            margin: 0;
+            padding: 5.5em 0 1em;
+        }
+    }
 }
-
+@media all and (min-width: $large) {
+    .u-pageHome {
+        .u-lContent {
+            .introText {
+                top: 21em;
+            }
+        }
+    }
+    .u-lContent {
+        .u-Excerpt.u-Excerpt--callBar {
+            margin: 0;
+            padding: 6.5em 0 1em;
+        }
+    }
+}
 /* ==============================
  *	LAYOUT
  * ==============================
@@ -402,6 +442,7 @@ b.pipe {
         h1, h2, h3, h4, h5, h6,
         .u-Excerpt__donateButton,
         .downloadButton,
+        .submissionButton,
         .u-Video,
         p,
         ol,
@@ -410,7 +451,8 @@ b.pipe {
             margin-left: auto;
             margin-right: auto;
         }
-        .downloadButton--link {
+        .downloadButton--link,
+        .submissionButton--link {
             width: 19em;
             display: block;
             margin-left: auto;
@@ -437,6 +479,14 @@ b.pipe {
             bottom: 0;
             content: "";
             z-index: 10;
+        }
+        .u-Excerpt--callBar .u-Excerpt__paragraph:last-of-type {
+            position: relative;
+            z-index: 10;
+        }
+        .u-Excerpt--callBar .u-Excerpt__paragraph:last-of-type:before {
+            position: relative;
+            z-index: 1;
         }
         p.u-Excerpt__donateButton--paragraph {
             width: 100%;
@@ -527,6 +577,7 @@ b.pipe {
         h1, h2, h3, h4, h5, h6,
         .u-Excerpt__donateButton,
         .downloadButton,
+        .submissionButton,
         .u-Video,
         p,
         ol,
@@ -642,6 +693,7 @@ b.pipe {
         h1, h2, h3, h4, h5, h6,
         .u-Excerpt__donateButton,
         .downloadButton,
+        .submissionButton,
         .u-Video,
         p,
         ol,
@@ -670,6 +722,7 @@ b.pipe {
         h1, h2, h3, h4, h5, h6,
         .u-Excerpt__donateButton,
         .downloadButton,
+        .submissionButton,
         .u-Video,
         p,
         ol,
@@ -710,6 +763,7 @@ a:active {
 }
 .u-Search__cancel:link,
 .downloadButton--link:link,
+.submissionButton-link:link,
 .u-Figure a:link,
 h1 a:link, h2 a:link, h3 a:link, h4 a:link, h5 a:link, h6 a:link,
 .Module__headerLink:link,
@@ -742,10 +796,12 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 .u-Masthead__siteName--link {
     @include link-colors($bgColor, $linkColorHoverFocus, $linkColorActive, $bgColor, $linkColorHoverFocus);
 }
-.downloadButton--link {
+.downloadButton--link,
+.submissionButton--link {
     @include link-colors($bgColor, $bgColor, $bgColor, $bgColor, $bgColor);
 }
-.downloadButton--link {
+.downloadButton--link,
+.submissionButton--link {
     @include background-colors($fontColor, $linkColorHoverFocus, $linkColorActive, $fontColor, $linkColorHoverFocus);
 }
 .u-lContent {
@@ -764,7 +820,33 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
     .u-Excerpt .u-Excerpt__paragraph:last-of-type:before {
         background: transparent url(../images/2016/vassar-review-excerpt-fade.png) repeat-x bottom center;
     }
-    .downloadButton--link {
+    .u-Excerpt--callBar {
+        background-color: #e6cf99;
+        color: $fontColor;
+        border-bottom: 1px solid #b3a176;
+        .u-Excerpt__paragraph:last-of-type:before {
+            background: none;
+        }
+        .u-Excerpt__title {
+            color: $fontColor;
+        }
+        a {
+            @include link-colors($fontColor, $linkColorHoverFocus, $linkColorActive, $fontColor, $linkColorHoverFocus);
+            border-bottom: 1px solid $fontColor;
+        }
+        a:visited {
+            border-bottom: 1px solid $fontColor;
+        }
+        a:hover,
+        a:focus {
+            border-bottom: 1px solid $linkColorHoverFocus;
+        }
+        a:active {
+            border-bottom: 1px solid $linkColorActive;
+        }
+    }
+    .downloadButton--link,
+    .submissionButton--link {
         border-radius: .1em;
     }
     .u-Figure--digiprev .u-Figure__caption {
