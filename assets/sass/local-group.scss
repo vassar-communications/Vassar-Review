@@ -11,9 +11,13 @@
 
 html {
 	font-family: $sans-serif;
-    font-size: 100%;
 }
-@media screen and (min-width: $tiny) {
+@media screen {
+    html {
+        font-size: 133%;
+    }
+}
+@media screen and (min-width: $small) {
     html {
         font-size: 1.4em;
         font-size: calc(1em + 0.5 * ((100vw - 20em) / 60));
@@ -54,16 +58,17 @@ h4 {
 }
 h5 {
 	font-size: 1em;
+	text-align: left;
 }
 h6 {
 	font-size: .9em;
+	text-align: left;
 }
 .u-lContent {
 	font-size: 1em;
 	font-family: $serif;
 	font-weight: $fontWeightNormal;
 	line-height: 1.4;
-	margin-bottom: 1.25em;
 } 
 p {
 	margin-top: 0;
@@ -109,8 +114,53 @@ b.pipe {
     font-size: 1.602;
     text-transform: uppercase;
 }
-/* u-lAside sidebar styles */
-
+.u-lContent .modulesArea {
+	p, h1, h2, h3, h4, h5 {
+		clear: both;
+		width: 100%;
+		text-align: left;
+	}
+}
+.list--aboutPage--contributors {
+	float: left;
+	width: 33%;
+	padding-right: 5%;
+	p {
+		font-size: .8em;
+		font-family: $serif;
+	}
+	.Module__title {
+		display: block;
+		font-family: $sans-serif;
+		font-weight: $fontWeightMedium;
+		text-transform: uppercase;
+		line-height: 1.1;
+		letter-spacing: .1em;
+	}
+	.Module__list,
+	.Module__subList {
+		list-style-type: none;
+		padding-left: 0;
+		margin-left: 0;
+		width: 100%;
+	}
+	.Module__subList {
+    	margin-bottom: 2em;
+		.Module__title {
+			font-family: $serif;
+			font-weight: $fontWeightNormal;
+			text-transform: none;
+			display: inline;
+			letter-spacing: 0;
+		}
+		li {
+			margin-bottom: 0;
+		}
+	}	
+}
+.list--aboutPage--contributorsThree {
+    padding-right: 0;
+}
 .u-lAside {
 
 	h1 {
@@ -146,42 +196,6 @@ b.pipe {
 		line-height: 1.2;
         font-family: $serif;
 	}
-    h4.asideSect__vrid {
-        font-family: $sans-serif;
-        text-transform: uppercase;
-        letter-spacing: .3em;
-        font-size: 1.602em;
-        font-weight: $fontWeightNormal;
-        width: 6em;
-        padding-left: .5em;
-        margin-top: 0;
-        text-align: left;
-    }
-    p.asideSect__cvrCred {
-        font-size: .8em;
-        font-family: $serif;
-        .artist,
-        .material,
-        .dimensions {
-            display: block;
-        }
-        .artist {
-            font-family: $sans-serif;
-            letter-spacing: .1em;
-        }
-    }
-    .asideSect__edBoard,
-    .asideSect__acknow,
-    .asideSect__mission {
-        font-size: .8em;
-    }
-    .asideSect__edBoard--label {
-        font-family: $sans-serif;
-        font-weight: $fontWeightMedium;
-        text-transform: uppercase;
-        display: block;
-        letter-spacing: .1em;
-    }
 }
 .u-SiteMap__level {
 	 margin: .5em 0;
@@ -193,7 +207,31 @@ b.pipe {
 .u-NavSite__item {
     letter-spacing: .1em;
 }
-.u-lContent { 
+.u-lContent {
+	.issuesList {
+		list-style-type: none;
+		padding: 0;
+		margin-bottom: 5%;
+		margin-top: 1.75em;
+		font-family: $sans-serif;
+		text-align: center;
+		p, h2, h3, h4, h5 {
+			width: 100%;
+		}
+		.u-Figure__caption {
+			font-family: $sans-serif;
+		}
+	}
+	.u-Figure__caption {
+		.prevIssueTitle,
+		.prevIssueDesc {
+			font-family: $sans-serif;
+			text-align: center;
+		}
+		.prevIssueTitle {
+			font-weight: $fontWeightMedium;
+		}
+	}
     .u-Figure {
         margin: 0;
     }
@@ -208,7 +246,11 @@ b.pipe {
         .artist {
             font-family: $sans-serif;
             letter-spacing: .1em;
+			text-transform: uppercase;
         }
+		.u-Excerpt__donateButton {
+			width: 100%;
+		}
     }
     .u-Figure--digiprev .u-Figure__caption {
         font-size: 2em;
@@ -250,6 +292,9 @@ b.pipe {
         margin-bottom: 1em;
         font-style: italic;
         font-size: 1.43em;
+		display: block;
+		text-align: center;
+		font-weight: $fontWeightMedium;
     }
     .u-Excerpt__donateBotton--link,
     .downloadButton--link,
@@ -278,30 +323,38 @@ b.pipe {
         font-family: $sans-serif;
         margin-bottom: 1.9em;
     }
+	.introText {
+		background-color: #fffbf8;
+		padding: 1.5em;
+		position: relative;
+		h2,
+		h3 {
+			margin: 0;
+			width: 100%;
+		}
+		h2 {
+			font-size: 2em;
+		}
+		h3 {
+			font-family: "freight-text-pro","Georgia";
+			font-size: 1em;
+			text-align: center;
+		}
+		.introTextLine3 {
+			display: block;
+			font-family: $sans-serif;
+			margin-top: .5em;
+			text-transform: uppercase;
+		}
+	}
+}
+.u-pageInner .u-lContent .u-Figure {
+	margin: 0 0 1.5em;
 }
 .u-pageInner .u-lContent .u-Excerpt__donateButton {
     padding-top: 0;
     margin-top: 2em;
     margin-bottom: 2em;
-}
-.u-pageHome {
-    .u-lContent {
-        .introText {
-            padding: 1.5em;
-            h2,
-            h3 {
-                margin: 0;
-                width: 100%;
-            }
-            h2 {
-                font-size: 1.25em;
-            }
-            h3 {
-                font-family: "freight-text-pro","Georgia";
-                font-size: .98em;
-            }
-        }
-    }
 }
 .u-VCard--site .u-VCard__item.u-VCard__url {
      font: $fontWeightMedium 1em/1.2 $sans-serif;
@@ -323,18 +376,13 @@ b.pipe {
         font-size: 1.5em;
         margin-top: 2.2em;
     }
-    .u-pageHome {
-        .u-lContent {
-            .introText {
-                h2 {
-                    font-size: 1.602em;
-                }
-                h3 {
-                    margin-left: 2.2em;
-                }
-            }
-        }
-    }
+	.u-lContent {
+		.introText {
+			h2 {
+				font-size: 2.602em;
+			}
+		}
+	}
 	.u-lMain {
 		font-size: 100%;
 	}
@@ -362,40 +410,42 @@ b.pipe {
     .u-NavSite__item {
         padding-left: .7em;
     }
-    .u-pageHome {
-        .u-lContent {
-            .introText {
-                position: absolute;
-                z-index: 10;
-                right: 5%;
-                top: 20em;
-                padding: .75em;
-                h2,
-                h3 {
-                    text-align: right;
-                    margin-left: 0;
-                }
-            }
-            .u-Figure__caption {
-                text-align: left;
-            }
-        }
-    }
-    .u-lContent {
+	.u-lContent {
+		margin-bottom: 0;
+		.introText {
+			background-color: transparent;
+			position: absolute;
+			z-index: 10;
+			right: 5%;
+			top: 11em;
+			top: 29vw;
+			padding: .75em;
+			h2,
+			h3 {
+				text-align: right;
+				margin-left: 0;
+			}
+			h3 {
+				font-size: .81em;
+			}
+		}
+		.u-Figure__caption {
+			text-align: left;
+			.prevIssueTitle,
+			.prevIssueDesc {
+				text-align: center;
+			}
+		}
         .u-Excerpt.u-Excerpt--callBar {
             margin: 0;
             padding: 5.5em 0 1em;
         }
+		.u-Excerpt.poetryNarrow .u-Excerpt__paragraph {
+			margin-left: 40%;
+		}
     }
 }
 @media all and (min-width: $large) {
-    .u-pageHome {
-        .u-lContent {
-            .introText {
-                top: 21em;
-            }
-        }
-    }
     .u-lContent {
         .u-Excerpt.u-Excerpt--callBar {
             margin: 0;
@@ -444,6 +494,7 @@ b.pipe {
         .downloadButton,
         .submissionButton,
         .u-Video,
+		.modulesArea,
         p,
         ol,
         ul {
@@ -466,27 +517,6 @@ b.pipe {
         .u-Excerpt b {
             text-align: center;
             display: block
-        }
-        .u-Excerpt .u-Excerpt__paragraph:last-of-type {
-            position: relative;
-            z-index: 1;
-        }
-        .u-Excerpt .u-Excerpt__paragraph:last-of-type:before {
-            position: absolute;
-            top: 0;
-            left: 0;
-            right: 0;
-            bottom: 0;
-            content: "";
-            z-index: 10;
-        }
-        .u-Excerpt--callBar .u-Excerpt__paragraph:last-of-type {
-            position: relative;
-            z-index: 10;
-        }
-        .u-Excerpt--callBar .u-Excerpt__paragraph:last-of-type:before {
-            position: relative;
-            z-index: 1;
         }
         p.u-Excerpt__donateButton--paragraph {
             width: 100%;
@@ -518,19 +548,22 @@ b.pipe {
         .u-Video {
             padding-bottom: 36.5%;
         }
+		.u-Figure--coverImage {
+			margin-top: -3.6em;
+		}
+		.issuesList {
+			overflow: hidden;
+			li {
+				width: 100;
+				margin: 0 5%;
+			}
+			.u-Excerpt__donateButton {
+    			width: 100%;
+			}
+		}
     }
-    .u-pageHome .u-lAside {
-        padding: 4em 0 0;
-        .asideSect {
-            margin-bottom: 4em;
-            position: relative;
-        }
-        overflow: hidden;
-        div {
-            width: 90%;
-            margin-left: auto;
-            margin-right: auto;
-        }
+    .u-lAside {
+        padding: 0;
     }
 }
 @media all and (min-width: $small) {
@@ -566,8 +599,7 @@ b.pipe {
     .u-pageInner .u-lMain {
         margin: 10em 0 5em;
     }
-    .u-lContent,
-    .u-lAside {
+    .u-lContent {
         padding: 0;
         width: 100%;
         float: none;
@@ -579,6 +611,7 @@ b.pipe {
         .downloadButton,
         .submissionButton,
         .u-Video,
+		.modulesArea,
         p,
         ol,
         ul {
@@ -586,39 +619,12 @@ b.pipe {
             margin-left: auto;
             margin-right: auto;
         }
-    }
-    .u-pageHome .u-lAside {
-        div {
-            width: 70%;
-            margin-left: auto;
-            margin-right: auto;
-        }
-        overflow: hidden;
-        .asideSect__edBoard {
-            -webkit-column-count: 3;
-            -moz-column-count: 3;
-            column-count: 3;
-            -webkit-column-gap: 2em;
-            -moz-column-gap: 2em;
-            column-gap: 2em;
-        }
-        .asideSect__acknow,
-        .asideSect__mission {
-            -webkit-column-count: 2;
-            -moz-column-count: 2;
-            column-count: 2;
-            -webkit-column-gap: 2em;
-            -moz-column-gap: 2em;
-            column-gap: 2em;
-        }
-        .asideSect__edBoard p {
-            display: inline-block;
-        }
-        .asideSect__cvrCred {
-            position: absolute;
-            top: 0;
-            right: 0;
-        }
+		.issuesList {
+			li {
+				width: 40%;
+				float: left;
+			}
+		}
     }
     .u-NavSite__itemContainer {
         display: inline-block;
@@ -647,7 +653,6 @@ b.pipe {
     .u-lMain {
         margin-top: 0; 
     }
-    .u-pageHome {
         .Module--contact .Module__name {
             margin-top: 0;
         }
@@ -676,12 +681,14 @@ b.pipe {
                 right: auto;
                 left: 3%;
             }
-            .u-Figure--danaharel .u-Figure__caption {
+            .u-Figure--coverImage .u-Figure__caption {
                 right: 7%;
             }
+			.u-Figure--coverImage {
+				margin-top: 0;
+			}
         }
     }
-}
 @media all and (min-width: $medium) {
     html {
         padding: 0;
@@ -695,17 +702,10 @@ b.pipe {
         .downloadButton,
         .submissionButton,
         .u-Video,
+		.modulesArea,
         p,
         ol,
         ul {
-            width: 60%;
-            margin-left: auto;
-            margin-right: auto;
-        }
-    }
-    .u-pageHome .u-lAside {
-        padding: 4em 0 0;
-        div {
             width: 60%;
             margin-left: auto;
             margin-right: auto;
@@ -724,17 +724,10 @@ b.pipe {
         .downloadButton,
         .submissionButton,
         .u-Video,
+		.modulesArea,
         p,
         ol,
         ul {
-            width: 50%;
-            margin-left: auto;
-            margin-right: auto;
-        }
-    }
-    .u-pageHome .u-lAside {
-        padding: 4em 0 0;
-        div {
             width: 50%;
             margin-left: auto;
             margin-right: auto;
@@ -782,7 +775,6 @@ a.fn.org.url.u-VCard__fn.u-VCard__item.u-VCard__org.u-VCard__url:link,
 .u-ArticleListItem__link:link {
     border-bottom: none;
 }
-
 h1, h2, h3, h4, h5, h6,
 .Module__header {
     color: $fontColor;
@@ -804,6 +796,10 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 .submissionButton--link {
     @include background-colors($fontColor, $linkColorHoverFocus, $linkColorActive, $fontColor, $linkColorHoverFocus);
 }
+.u-lFooter {
+	background: $fontColor url(../images/2016/vassar-review-round-logo.png) no-repeat center center;
+	background-size: contain;	
+}
 .u-lContent {
     .u-Figure--nuriafarre .u-Figure__caption {
         color: $fontColor;
@@ -817,16 +813,10 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
     p.u-Excerpt__donateButton--paragraph {
         color: tint($fontColor, 45%);
     }
-    .u-Excerpt .u-Excerpt__paragraph:last-of-type:before {
-        background: transparent url(../images/2016/vassar-review-excerpt-fade.png) repeat-x bottom center;
-    }
     .u-Excerpt--callBar {
         background-color: #e6cf99;
         color: $fontColor;
         border-bottom: 1px solid #b3a176;
-        .u-Excerpt__paragraph:last-of-type:before {
-            background: none;
-        }
         .u-Excerpt__title {
             color: $fontColor;
         }
@@ -849,30 +839,13 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
     .submissionButton--link {
         border-radius: .1em;
     }
-    .u-Figure--digiprev .u-Figure__caption {
-         @include link-colors($bgColor, $fontColor, $linkColorActive, $bgColor, $fontColor);
-        background: transparent url(../images/2016/vassar-review-round-logo-light.png) no-repeat top center;
-        background-size: 100%;
-    }
-    .u-Figure--digiprev .u-Figure__caption:hover {
-        background: transparent url(../images/2016/vassar-review-round-logo-light-hover.png) no-repeat top center;
-        background-size: 100%;
-    }
 }
 .u-pageInner .u-lContent .u-Excerpt__donateButton {
     border-top: none;
 }
-.u-pageHome {
-    .u-lAside {
-        color: $bgColor;
-        background: $fontColor url(../images/2016/vassar-review-round-logo.png) no-repeat center center;
-        background-size: 60%;
-    }
-}
 h4.asideSect__vrid {
     color: $bgColor;
 }
-
 .u-VCard--site { 
     a {
         @include link-colors($bgColor, $linkColorHoverFocus, $linkColorActive, $bgColor, $linkColorHoverFocus);
@@ -892,7 +865,12 @@ h4.asideSect__vrid {
 h4.asideSect__vrid {
     border-left: .05em solid $bgColor;
 }
-
+.u-Figure--coverImage {
+	background-color: #fffbf8;
+}
+.issuesList img {
+		border: 1px solid tint($fontColor, 80%)
+}
 @media all and (min-width: $small) {
     .u-lHeader,
     .u-lFooter {
@@ -903,19 +881,21 @@ h4.asideSect__vrid {
             color: $bgColor;
         }
     }
-    .u-pageHome {
-        .u-lContent {
-            .introText {
-                background-color: rgba(48, 48, 48, 0.52);
-                h2,
-                h3 {
-                    color: #fff;
-                }
-            }
-            .u-Figure__caption {
-                text-align: left;
-            }
-        }
-    }
-
+	.u-lContent {
+		.introText {
+		}
+		.u-Figure__caption {
+			text-align: left;
+		}
+		.u-Figure__caption {
+			padding: .5em;
+			background-color: rgba(0, 0, 0, 0.43);
+			color: white;
+		}
+		.u-Figure--coverImage .u-Figure__caption {
+			padding: 0;
+			background-color: transparent;
+			color: $fontColor;				
+		}
+	}
 }

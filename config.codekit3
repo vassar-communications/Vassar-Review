@@ -7,8 +7,14 @@
 		"uuidString": "F91841C6-1701-4822-BDF2-B102E825AF5D"
 		}
 	],
-"creatorBuild": "25444",
+"creatorBuild": "25900",
 "files": {
+	"\/.gitignore": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/.gitignore",
+		"oF": 0
+		},
 	"\/.htaccess": {
 		"ft": 8192,
 		"oA": 2,
@@ -21,10 +27,22 @@
 		"oAP": "\/404.html",
 		"oF": 0
 		},
+	"\/_notes\/dwsync.xml": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_notes\/dwsync.xml",
+		"oF": 0
+		},
 	"\/assets\/config.php": {
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/assets\/config.php",
+		"oF": 0
+		},
+	"\/assets\/css\/_notes\/dwsync.xml": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/css\/_notes\/dwsync.xml",
 		"oF": 0
 		},
 	"\/assets\/css\/local-group copy.css": {
@@ -47,13 +65,269 @@
 		"oF": 0,
 		"oS": 0
 		},
+	"\/assets\/images\/2017\/_notes\/dwsync.xml": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/images\/2017\/_notes\/dwsync.xml",
+		"oF": 0
+		},
+	"\/assets\/images\/2017\/Altar_H_F_0734.jpg": {
+		"ft": 16384,
+		"iS": 116084,
+		"oA": 0,
+		"oAP": "\/assets\/images\/2017\/Altar_H_F_0734.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/assets\/images\/2017\/Archive 2.zip": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/images\/2017\/Archive 2.zip",
+		"oF": 0
+		},
+	"\/assets\/images\/2017\/Archive.zip": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/images\/2017\/Archive.zip",
+		"oF": 0
+		},
+	"\/assets\/images\/2017\/Barahona_DevenirTorovenado_3.jpg": {
+		"ft": 16384,
+		"iS": 131372,
+		"oA": 0,
+		"oAP": "\/assets\/images\/2017\/Barahona_DevenirTorovenado_3.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/assets\/images\/2017\/Barahona_MIDDLE.jpg": {
+		"ft": 16384,
+		"iS": 241033,
+		"oA": 0,
+		"oAP": "\/assets\/images\/2017\/Barahona_MIDDLE.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/assets\/images\/2017\/Galaxy.jpg": {
+		"ft": 16384,
+		"iS": 123704,
+		"oA": 0,
+		"oAP": "\/assets\/images\/2017\/Galaxy.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/assets\/images\/2017\/holeton-screen-grab.jpg": {
+		"ft": 16384,
+		"iS": 118183,
+		"oA": 0,
+		"oAP": "\/assets\/images\/2017\/holeton-screen-grab.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/images\/2017\/Hovnanian-Blood-Stain-Remover.jpg": {
+		"ft": 16384,
+		"iS": 113206,
+		"oA": 0,
+		"oAP": "\/assets\/images\/2017\/Hovnanian-Blood-Stain-Remover.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/assets\/images\/2017\/Hovnanian_Texas-Beauty-Queen-Cream-Depressing.jpg": {
+		"ft": 16384,
+		"iS": 125274,
+		"oA": 0,
+		"oAP": "\/assets\/images\/2017\/Hovnanian_Texas-Beauty-Queen-Cream-Depressing.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/assets\/images\/2017\/Hovnanian_Texas-Beauty-Queen-Cream.jpg": {
+		"ft": 16384,
+		"iS": 108300,
+		"oA": 0,
+		"oAP": "\/assets\/images\/2017\/Hovnanian_Texas-Beauty-Queen-Cream.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/assets\/images\/2017\/lg-Stillman_See-It.jpg": {
+		"ft": 16384,
+		"iS": 171816,
+		"oA": 0,
+		"oAP": "\/assets\/images\/2017\/lg-Stillman_See-It.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/images\/2017\/Lindberg_Taut-Green.jpg": {
+		"ft": 16384,
+		"iS": 167693,
+		"oA": 0,
+		"oAP": "\/assets\/images\/2017\/Lindberg_Taut-Green.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/assets\/images\/2017\/Loop-Pa-Pow.jpg": {
+		"ft": 16384,
+		"iS": 68964,
+		"oA": 0,
+		"oAP": "\/assets\/images\/2017\/Loop-Pa-Pow.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/assets\/images\/2017\/Munson_Pink-Project-Table.jpg": {
+		"ft": 16384,
+		"iS": 156555,
+		"oA": 0,
+		"oAP": "\/assets\/images\/2017\/Munson_Pink-Project-Table.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/assets\/images\/2017\/Munson_Sarcophagus.jpg": {
+		"ft": 16384,
+		"iS": 144387,
+		"oA": 0,
+		"oAP": "\/assets\/images\/2017\/Munson_Sarcophagus.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/assets\/images\/2017\/Setright_En-La-Chureca.jpg": {
+		"ft": 16384,
+		"iS": 147735,
+		"oA": 0,
+		"oAP": "\/assets\/images\/2017\/Setright_En-La-Chureca.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/assets\/images\/2017\/Setright_En-Las-Calles.jpg": {
+		"ft": 16384,
+		"iS": 206318,
+		"oA": 0,
+		"oAP": "\/assets\/images\/2017\/Setright_En-Las-Calles.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/assets\/images\/2017\/Setright_Enfrente-de-la-Embajada-de-los-Estados-Unidos.jpg": {
+		"ft": 16384,
+		"iS": 95163,
+		"oA": 0,
+		"oAP": "\/assets\/images\/2017\/Setright_Enfrente-de-la-Embajada-de-los-Estados-Unidos.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/assets\/images\/2017\/Setright_Enfrente-de-Walmart.jpg": {
+		"ft": 16384,
+		"iS": 115529,
+		"oA": 0,
+		"oAP": "\/assets\/images\/2017\/Setright_Enfrente-de-Walmart.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/assets\/images\/2017\/Setright_Molotov-Man-enfrente-de-McDonalds.jpg": {
+		"ft": 16384,
+		"iS": 99582,
+		"oA": 0,
+		"oAP": "\/assets\/images\/2017\/Setright_Molotov-Man-enfrente-de-McDonalds.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/assets\/images\/2017\/Setright_Plaza-de-las-Victorias.jpg": {
+		"ft": 16384,
+		"iS": 108244,
+		"oA": 0,
+		"oAP": "\/assets\/images\/2017\/Setright_Plaza-de-las-Victorias.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/assets\/images\/2017\/SO_Title.jpg": {
+		"ft": 16384,
+		"iS": 296821,
+		"oA": 0,
+		"oAP": "\/assets\/images\/2017\/SO_Title.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/images\/2017\/Stillman_See-It.jpg": {
+		"ft": 16384,
+		"iS": 169472,
+		"oA": 0,
+		"oAP": "\/assets\/images\/2017\/Stillman_See-It.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/images\/2017\/Tugbiyele_Heart-Inner-Outer-Light.jpg": {
+		"ft": 16384,
+		"iS": 275538,
+		"oA": 0,
+		"oAP": "\/assets\/images\/2017\/Tugbiyele_Heart-Inner-Outer-Light.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/assets\/images\/2017\/ultra-violet.jpg": {
+		"ft": 16384,
+		"iS": 106699,
+		"oA": 0,
+		"oAP": "\/assets\/images\/2017\/ultra-violet.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
 	"\/assets\/images\/_MG_7614.jpg": {
 		"ft": 16384,
 		"iS": 111882,
 		"oA": 1,
 		"oAP": "\/assets\/images\/_MG_7614.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/images\/Archive.zip": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/images\/Archive.zip",
+		"oF": 0
 		},
 	"\/assets\/images\/Dana_Harel_Only_for_the_Left_Hand_3.jpg": {
 		"ft": 16384,
@@ -61,7 +335,9 @@
 		"oA": 0,
 		"oAP": "\/assets\/images\/Dana_Harel_Only_for_the_Left_Hand_3.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/assets\/images\/Julia_Randall_Wild_Berry.jpg": {
 		"ft": 16384,
@@ -69,7 +345,9 @@
 		"oA": 0,
 		"oAP": "\/assets\/images\/Julia_Randall_Wild_Berry.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/assets\/images\/Nuria_Farre_El_Sueno_de_Abraxas.jpg": {
 		"ft": 16384,
@@ -77,7 +355,9 @@
 		"oA": 0,
 		"oAP": "\/assets\/images\/Nuria_Farre_El_Sueno_de_Abraxas.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/assets\/images\/vassar-review-buy-button.png": {
 		"ft": 32768,
@@ -85,7 +365,10 @@
 		"oA": 0,
 		"oAP": "\/assets\/images\/vassar-review-buy-button.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/assets\/images\/vassar-review-digital-preview.jpg": {
 		"ft": 16384,
@@ -93,7 +376,9 @@
 		"oA": 0,
 		"oAP": "\/assets\/images\/vassar-review-digital-preview.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/assets\/images\/vassar-review-donate-button.png": {
 		"ft": 32768,
@@ -101,7 +386,10 @@
 		"oA": 0,
 		"oAP": "\/assets\/images\/vassar-review-donate-button.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/assets\/images\/vassar-review-excerpt-fade.png": {
 		"ft": 32768,
@@ -109,7 +397,10 @@
 		"oA": 0,
 		"oAP": "\/assets\/images\/vassar-review-excerpt-fade.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/assets\/images\/vassar-review-round-logo-light-hover.png": {
 		"ft": 32768,
@@ -117,7 +408,10 @@
 		"oA": 0,
 		"oAP": "\/assets\/images\/vassar-review-round-logo-light-hover.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/assets\/images\/vassar-review-round-logo-light.png": {
 		"ft": 32768,
@@ -125,7 +419,10 @@
 		"oA": 0,
 		"oAP": "\/assets\/images\/vassar-review-round-logo-light.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/assets\/images\/vassar-review-round-logo.png": {
 		"ft": 32768,
@@ -133,7 +430,30 @@
 		"oA": 0,
 		"oAP": "\/assets\/images\/vassar-review-round-logo.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/images\/VR-2016_cover.jpg": {
+		"ft": 16384,
+		"iS": 120021,
+		"oA": 0,
+		"oAP": "\/assets\/images\/VR-2016_cover.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/assets\/images\/VR-2017_cover.jpg": {
+		"ft": 16384,
+		"iS": 99302,
+		"oA": 0,
+		"oAP": "\/assets\/images\/VR-2017_cover.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
 		},
 	"\/assets\/nav.html": {
 		"ft": 8192,
@@ -167,6 +487,12 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/assets\/sass\/_notes\/dwsync.xml": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/sass\/_notes\/dwsync.xml",
+		"oF": 0
+		},
 	"\/assets\/sass\/local-group.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -186,13 +512,784 @@
 		"oAP": "\/config.rb",
 		"oF": 0
 		},
+	"\/design-files\/2017-cover-Stillman_See It copy.psd": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/design-files\/2017-cover-Stillman_See It copy.psd",
+		"oF": 0
+		},
+	"\/design-files\/2017-cover-Stillman_See It.psd": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/design-files\/2017-cover-Stillman_See It.psd",
+		"oF": 0
+		},
+	"\/design-files\/Blood Stain Remover.tif": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/design-files\/Blood Stain Remover.tif",
+		"oF": 0
+		},
+	"\/design-files\/Copy of Barahona_MIDDLE.tiff": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/design-files\/Copy of Barahona_MIDDLE.tiff",
+		"oF": 0
+		},
+	"\/design-files\/Copy of Stillman_See It.tif": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/design-files\/Copy of Stillman_See It.tif",
+		"oF": 0
+		},
+	"\/design-files\/Copy of Vane_JohnOlds.doc": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/design-files\/Copy of Vane_JohnOlds.doc",
+		"oF": 0
+		},
+	"\/design-files\/Cover-Full.pdf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/design-files\/Cover-Full.pdf",
+		"oF": 0
+		},
+	"\/design-files\/Digital Supplement\/_List of Works E-Edition _ Sequence.docx": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/design-files\/Digital Supplement\/_List of Works E-Edition _ Sequence.docx",
+		"oF": 0
+		},
+	"\/design-files\/Digital Supplement\/Arts\/1. Captions_Arts_Digital Supplement.docx": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/design-files\/Digital Supplement\/Arts\/1. Captions_Arts_Digital Supplement.docx",
+		"oF": 0
+		},
+	"\/design-files\/Digital Supplement\/Arts\/8-BIT BEBOP Project-HD.mp4": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/design-files\/Digital Supplement\/Arts\/8-BIT BEBOP Project-HD.mp4",
+		"oF": 0
+		},
+	"\/design-files\/Digital Supplement\/Arts\/Adejoke Tugbiyele\/Tugbieyele_Heart Outer Light.JPG": {
+		"ft": 16384,
+		"iS": 7050507,
+		"oA": 0,
+		"oAP": "\/design-files\/Digital Supplement\/Arts\/Adejoke Tugbiyele\/Tugbieyele_Heart Outer Light.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/design-files\/Digital Supplement\/Arts\/Adejoke Tugbiyele\/Tugbiyele_Heart Inner Light.JPG": {
+		"ft": 16384,
+		"iS": 6827772,
+		"oA": 0,
+		"oAP": "\/design-files\/Digital Supplement\/Arts\/Adejoke Tugbiyele\/Tugbiyele_Heart Inner Light.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/design-files\/Digital Supplement\/Arts\/Barahona\/Barahona_DevenirTorovenado_1.jpg": {
+		"ft": 16384,
+		"iS": 2612557,
+		"oA": 0,
+		"oAP": "\/design-files\/Digital Supplement\/Arts\/Barahona\/Barahona_DevenirTorovenado_1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/design-files\/Digital Supplement\/Arts\/Barahona\/Barahona_DevenirTorovenado_2.jpg": {
+		"ft": 16384,
+		"iS": 2624792,
+		"oA": 0,
+		"oAP": "\/design-files\/Digital Supplement\/Arts\/Barahona\/Barahona_DevenirTorovenado_2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/design-files\/Digital Supplement\/Arts\/Barahona\/Barahona_DevenirTorovenado_3.jpg": {
+		"ft": 16384,
+		"iS": 2616990,
+		"oA": 0,
+		"oAP": "\/design-files\/Digital Supplement\/Arts\/Barahona\/Barahona_DevenirTorovenado_3.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/design-files\/Digital Supplement\/Arts\/Barahona\/Barahona_DevenirTorovenado_4.jpg": {
+		"ft": 16384,
+		"iS": 2671411,
+		"oA": 0,
+		"oAP": "\/design-files\/Digital Supplement\/Arts\/Barahona\/Barahona_DevenirTorovenado_4.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/design-files\/Digital Supplement\/Arts\/Barahona\/Barahona_DevenirTorovenado_5.jpg": {
+		"ft": 16384,
+		"iS": 2977659,
+		"oA": 0,
+		"oAP": "\/design-files\/Digital Supplement\/Arts\/Barahona\/Barahona_DevenirTorovenado_5.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/design-files\/Digital Supplement\/Arts\/Barahona\/Barahona_DevenirTorovenado_6.jpg": {
+		"ft": 16384,
+		"iS": 2284177,
+		"oA": 0,
+		"oAP": "\/design-files\/Digital Supplement\/Arts\/Barahona\/Barahona_DevenirTorovenado_6.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/design-files\/Digital Supplement\/Arts\/Barahona\/Barahona_Solo Fantasia (video).docx": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/design-files\/Digital Supplement\/Arts\/Barahona\/Barahona_Solo Fantasia (video).docx",
+		"oF": 0
+		},
+	"\/design-files\/Digital Supplement\/Arts\/Barahona\/Barahona_SoloFantasia_1.jpg": {
+		"ft": 16384,
+		"iS": 9628165,
+		"oA": 0,
+		"oAP": "\/design-files\/Digital Supplement\/Arts\/Barahona\/Barahona_SoloFantasia_1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/design-files\/Digital Supplement\/Arts\/Barahona\/Barahona_SoloFantasia_2.jpg": {
+		"ft": 16384,
+		"iS": 8673366,
+		"oA": 0,
+		"oAP": "\/design-files\/Digital Supplement\/Arts\/Barahona\/Barahona_SoloFantasia_2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/design-files\/Digital Supplement\/Arts\/Barahona\/Barahona_SoloFantasia_3.jpg": {
+		"ft": 16384,
+		"iS": 5475693,
+		"oA": 0,
+		"oAP": "\/design-files\/Digital Supplement\/Arts\/Barahona\/Barahona_SoloFantasia_3.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/design-files\/Digital Supplement\/Arts\/Barahona_Devenir Torovenado (video).docx": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/design-files\/Digital Supplement\/Arts\/Barahona_Devenir Torovenado (video).docx",
+		"oF": 0
+		},
+	"\/design-files\/Digital Supplement\/Arts\/Choi\/Choi_8BIT BEPOP (vimeo embed code).docx": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/design-files\/Digital Supplement\/Arts\/Choi\/Choi_8BIT BEPOP (vimeo embed code).docx",
+		"oF": 0
+		},
+	"\/design-files\/Digital Supplement\/Arts\/Choi\/Galaxy.jpg": {
+		"ft": 16384,
+		"iS": 878670,
+		"oA": 0,
+		"oAP": "\/design-files\/Digital Supplement\/Arts\/Choi\/Galaxy.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/design-files\/Digital Supplement\/Arts\/Choi\/Loop Pa Pow.jpg": {
+		"ft": 16384,
+		"iS": 480652,
+		"oA": 0,
+		"oAP": "\/design-files\/Digital Supplement\/Arts\/Choi\/Loop Pa Pow.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/design-files\/Digital Supplement\/Arts\/Choi_Chanhee Choi (video).docx": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/design-files\/Digital Supplement\/Arts\/Choi_Chanhee Choi (video).docx",
+		"oF": 0
+		},
+	"\/design-files\/Digital Supplement\/Arts\/Copy of Digital Acceptances by Artist.docx": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/design-files\/Digital Supplement\/Arts\/Copy of Digital Acceptances by Artist.docx",
+		"oF": 0
+		},
+	"\/design-files\/Digital Supplement\/Arts\/Goen\/Altar_H_F_0734.jpg": {
+		"ft": 16384,
+		"iS": 530490,
+		"oA": 0,
+		"oAP": "\/design-files\/Digital Supplement\/Arts\/Goen\/Altar_H_F_0734.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/design-files\/Digital Supplement\/Arts\/Goen\/Goen_Altar of Hope and Fear.jpg": {
+		"ft": 16384,
+		"iS": 530490,
+		"oA": 0,
+		"oAP": "\/design-files\/Digital Supplement\/Arts\/Goen\/Goen_Altar of Hope and Fear.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/design-files\/Digital Supplement\/Arts\/Hovnanian_Texas Beauty Queen Cream (Look hot while protecting the planet).jpg": {
+		"ft": 16384,
+		"iS": 17642712,
+		"oA": 0,
+		"oAP": "\/design-files\/Digital Supplement\/Arts\/Hovnanian_Texas Beauty Queen Cream (Look hot while protecting the planet).jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/design-files\/Digital Supplement\/Arts\/Hovnanian_Texas Beauty Queen Cream (Precious skincare for the privileged few).jpg": {
+		"ft": 16384,
+		"iS": 17946221,
+		"oA": 0,
+		"oAP": "\/design-files\/Digital Supplement\/Arts\/Hovnanian_Texas Beauty Queen Cream (Precious skincare for the privileged few).jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/design-files\/Digital Supplement\/Arts\/Hovnanian_Texas Beauty Queen Cream (Virtually Eliminate the Depressing Feeling of Looking Older than You Really Are).jpg": {
+		"ft": 16384,
+		"iS": 1096195,
+		"oA": 0,
+		"oAP": "\/design-files\/Digital Supplement\/Arts\/Hovnanian_Texas Beauty Queen Cream (Virtually Eliminate the Depressing Feeling of Looking Older than You Really Are).jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/design-files\/Digital Supplement\/Arts\/Lindberg_Taut Green.tif": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/design-files\/Digital Supplement\/Arts\/Lindberg_Taut Green.tif",
+		"oF": 0
+		},
+	"\/design-files\/Digital Supplement\/Arts\/Munson_Pink Project Table.jpg": {
+		"ft": 16384,
+		"iS": 1148311,
+		"oA": 0,
+		"oAP": "\/design-files\/Digital Supplement\/Arts\/Munson_Pink Project Table.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/design-files\/Digital Supplement\/Arts\/Munson_Sarcophagus.jpg": {
+		"ft": 16384,
+		"iS": 1052540,
+		"oA": 0,
+		"oAP": "\/design-files\/Digital Supplement\/Arts\/Munson_Sarcophagus.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/design-files\/Digital Supplement\/Arts\/Setright\/Setright_Armado en Rotonda Hugo Chavez.tif": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/design-files\/Digital Supplement\/Arts\/Setright\/Setright_Armado en Rotonda Hugo Chavez.tif",
+		"oF": 0
+		},
+	"\/design-files\/Digital Supplement\/Arts\/Setright\/Setright_Armado enfrente de Consejo Supremo Electoral.tif": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/design-files\/Digital Supplement\/Arts\/Setright\/Setright_Armado enfrente de Consejo Supremo Electoral.tif",
+		"oF": 0
+		},
+	"\/design-files\/Digital Supplement\/Arts\/Setright\/Setright_Barricada enfrente de Edificio Pellas.tif": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/design-files\/Digital Supplement\/Arts\/Setright\/Setright_Barricada enfrente de Edificio Pellas.tif",
+		"oF": 0
+		},
+	"\/design-files\/Digital Supplement\/Arts\/Setright\/Setright_Contemplando la Ciudad.tif": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/design-files\/Digital Supplement\/Arts\/Setright\/Setright_Contemplando la Ciudad.tif",
+		"oF": 0
+		},
+	"\/design-files\/Digital Supplement\/Arts\/Setright\/Setright_Cuerpo enfrente de un Crucero.tif": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/design-files\/Digital Supplement\/Arts\/Setright\/Setright_Cuerpo enfrente de un Crucero.tif",
+		"oF": 0
+		},
+	"\/design-files\/Digital Supplement\/Arts\/Setright\/Setright_En La Chureca.tif": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/design-files\/Digital Supplement\/Arts\/Setright\/Setright_En La Chureca.tif",
+		"oF": 0
+		},
+	"\/design-files\/Digital Supplement\/Arts\/Setright\/Setright_En Las Calles.tif": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/design-files\/Digital Supplement\/Arts\/Setright\/Setright_En Las Calles.tif",
+		"oF": 0
+		},
+	"\/design-files\/Digital Supplement\/Arts\/Setright\/Setright_Enfrente de Banco LaFise.tif": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/design-files\/Digital Supplement\/Arts\/Setright\/Setright_Enfrente de Banco LaFise.tif",
+		"oF": 0
+		},
+	"\/design-files\/Digital Supplement\/Arts\/Setright\/Setright_Enfrente de la Embajada de los Estados Unidos.tif": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/design-files\/Digital Supplement\/Arts\/Setright\/Setright_Enfrente de la Embajada de los Estados Unidos.tif",
+		"oF": 0
+		},
+	"\/design-files\/Digital Supplement\/Arts\/Setright\/Setright_Enfrente de la UCA.tif": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/design-files\/Digital Supplement\/Arts\/Setright\/Setright_Enfrente de la UCA.tif",
+		"oF": 0
+		},
+	"\/design-files\/Digital Supplement\/Arts\/Setright\/Setright_Enfrente de Molinos Eolicos.tif": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/design-files\/Digital Supplement\/Arts\/Setright\/Setright_Enfrente de Molinos Eolicos.tif",
+		"oF": 0
+		},
+	"\/design-files\/Digital Supplement\/Arts\/Setright\/Setright_Enfrente de Walmart.tif": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/design-files\/Digital Supplement\/Arts\/Setright\/Setright_Enfrente de Walmart.tif",
+		"oF": 0
+		},
+	"\/design-files\/Digital Supplement\/Arts\/Setright\/Setright_Enfrente del Casino.jpg": {
+		"ft": 16384,
+		"iS": 760592,
+		"oA": 0,
+		"oAP": "\/design-files\/Digital Supplement\/Arts\/Setright\/Setright_Enfrente del Casino.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/design-files\/Digital Supplement\/Arts\/Setright\/Setright_Enfrente del Hotel Intercontinental.tif": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/design-files\/Digital Supplement\/Arts\/Setright\/Setright_Enfrente del Hotel Intercontinental.tif",
+		"oF": 0
+		},
+	"\/design-files\/Digital Supplement\/Arts\/Setright\/Setright_La Toma de Galerias.tif": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/design-files\/Digital Supplement\/Arts\/Setright\/Setright_La Toma de Galerias.tif",
+		"oF": 0
+		},
+	"\/design-files\/Digital Supplement\/Arts\/Setright\/Setright_Molotov Man enfrente de McDonalds.tif": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/design-files\/Digital Supplement\/Arts\/Setright\/Setright_Molotov Man enfrente de McDonalds.tif",
+		"oF": 0
+		},
+	"\/design-files\/Digital Supplement\/Arts\/Setright\/Setright_Motorizados enfrente de Arboles de la Vida.tif": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/design-files\/Digital Supplement\/Arts\/Setright\/Setright_Motorizados enfrente de Arboles de la Vida.tif",
+		"oF": 0
+		},
+	"\/design-files\/Digital Supplement\/Arts\/Setright\/Setright_Plaza de las Victorias.tif": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/design-files\/Digital Supplement\/Arts\/Setright\/Setright_Plaza de las Victorias.tif",
+		"oF": 0
+		},
+	"\/design-files\/Digital Supplement\/Arts\/Setright\/Setright_Somoza en el Malecon.tif": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/design-files\/Digital Supplement\/Arts\/Setright\/Setright_Somoza en el Malecon.tif",
+		"oF": 0
+		},
+	"\/design-files\/Digital Supplement\/Arts\/Setright\/Setright_Tanque enfrente de Movistar.tif": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/design-files\/Digital Supplement\/Arts\/Setright\/Setright_Tanque enfrente de Movistar.tif",
+		"oF": 0
+		},
+	"\/design-files\/Digital Supplement\/Arts\/Setright_En La Chureca.tif": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/design-files\/Digital Supplement\/Arts\/Setright_En La Chureca.tif",
+		"oF": 0
+		},
+	"\/design-files\/Digital Supplement\/Arts\/Setright_En Las Calles.tif": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/design-files\/Digital Supplement\/Arts\/Setright_En Las Calles.tif",
+		"oF": 0
+		},
+	"\/design-files\/Digital Supplement\/Arts\/Setright_Enfrente de la Embajada de los Estados Unidos.tif": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/design-files\/Digital Supplement\/Arts\/Setright_Enfrente de la Embajada de los Estados Unidos.tif",
+		"oF": 0
+		},
+	"\/design-files\/Digital Supplement\/Arts\/Setright_Enfrente de Walmart.tif": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/design-files\/Digital Supplement\/Arts\/Setright_Enfrente de Walmart.tif",
+		"oF": 0
+		},
+	"\/design-files\/Digital Supplement\/Arts\/Setright_Molotov Man enfrente de McDonalds.tif": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/design-files\/Digital Supplement\/Arts\/Setright_Molotov Man enfrente de McDonalds.tif",
+		"oF": 0
+		},
+	"\/design-files\/Digital Supplement\/Arts\/Setright_Plaza de las Victorias.tif": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/design-files\/Digital Supplement\/Arts\/Setright_Plaza de las Victorias.tif",
+		"oF": 0
+		},
+	"\/design-files\/Digital Supplement\/Bios - Digital.docx": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/design-files\/Digital Supplement\/Bios - Digital.docx",
+		"oF": 0
+		},
+	"\/design-files\/Digital Supplement\/Contributor List by Name.docx": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/design-files\/Digital Supplement\/Contributor List by Name.docx",
+		"oF": 0
+		},
+	"\/design-files\/Digital Supplement\/Digital Media\/-Sólo Fantasía- (2014) Fredman Barahona.mp4": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/design-files\/Digital Supplement\/Digital Media\/-Sólo Fantasía- (2014) Fredman Barahona.mp4",
+		"oF": 0
+		},
+	"\/design-files\/Digital Supplement\/Digital Media\/Copy of DIGITAL MEDIA CAPTIONS.docx": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/design-files\/Digital Supplement\/Digital Media\/Copy of DIGITAL MEDIA CAPTIONS.docx",
+		"oF": 0
+		},
+	"\/design-files\/Digital Supplement\/Digital Media\/Demirjian _ Proctor, Color Yourself Inspired™\/_simply-irresistable.jpg": {
+		"ft": 16384,
+		"iS": 755564,
+		"oA": 1,
+		"oAP": "\/design-files\/Digital Supplement\/Digital Media\/Demirjian _ Proctor, Color Yourself Inspired™\/_simply-irresistable.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/design-files\/Digital Supplement\/Digital Media\/Demirjian _ Proctor, Color Yourself Inspired™\/Demirjian, Proctor Website Link.docx": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/design-files\/Digital Supplement\/Digital Media\/Demirjian _ Proctor, Color Yourself Inspired™\/Demirjian, Proctor Website Link.docx",
+		"oF": 0
+		},
+	"\/design-files\/Digital Supplement\/Digital Media\/Demirjian _ Proctor, Color Yourself Inspired™\/fire-and-ice-engagement-at-sea.png": {
+		"ft": 32768,
+		"iS": 247676,
+		"oA": 0,
+		"oAP": "\/design-files\/Digital Supplement\/Digital Media\/Demirjian _ Proctor, Color Yourself Inspired™\/fire-and-ice-engagement-at-sea.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/design-files\/Digital Supplement\/Digital Media\/Demirjian _ Proctor, Color Yourself Inspired™\/gentle-gray-st-pattys-day.jpeg": {
+		"ft": 16384,
+		"iS": 739853,
+		"oA": 0,
+		"oAP": "\/design-files\/Digital Supplement\/Digital Media\/Demirjian _ Proctor, Color Yourself Inspired™\/gentle-gray-st-pattys-day.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/design-files\/Digital Supplement\/Digital Media\/Demirjian _ Proctor, Color Yourself Inspired™\/paisley-pink-cobblestone.jpg": {
+		"ft": 16384,
+		"iS": 709821,
+		"oA": 0,
+		"oAP": "\/design-files\/Digital Supplement\/Digital Media\/Demirjian _ Proctor, Color Yourself Inspired™\/paisley-pink-cobblestone.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/design-files\/Digital Supplement\/Digital Media\/Demirjian _ Proctor, Color Yourself Inspired™\/picture-perfect.jpeg": {
+		"ft": 16384,
+		"iS": 790090,
+		"oA": 0,
+		"oAP": "\/design-files\/Digital Supplement\/Digital Media\/Demirjian _ Proctor, Color Yourself Inspired™\/picture-perfect.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/design-files\/Digital Supplement\/Digital Media\/Demirjian _ Proctor, Color Yourself Inspired™\/Screen Shot 2017-08-09 at 7.03.28 PM.jpg": {
+		"ft": 16384,
+		"iS": 273730,
+		"oA": 0,
+		"oAP": "\/design-files\/Digital Supplement\/Digital Media\/Demirjian _ Proctor, Color Yourself Inspired™\/Screen Shot 2017-08-09 at 7.03.28 PM.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/design-files\/Digital Supplement\/Digital Media\/Demirjian _ Proctor, Color Yourself Inspired™\/Screen Shot 2017-08-09 at 7.03.42 PM.jpg": {
+		"ft": 16384,
+		"iS": 277757,
+		"oA": 0,
+		"oAP": "\/design-files\/Digital Supplement\/Digital Media\/Demirjian _ Proctor, Color Yourself Inspired™\/Screen Shot 2017-08-09 at 7.03.42 PM.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/design-files\/Digital Supplement\/Digital Media\/Demirjian _ Proctor, Color Yourself Inspired™\/Screen Shot 2017-08-09 at 7.03.49 PM.jpg": {
+		"ft": 16384,
+		"iS": 272174,
+		"oA": 0,
+		"oAP": "\/design-files\/Digital Supplement\/Digital Media\/Demirjian _ Proctor, Color Yourself Inspired™\/Screen Shot 2017-08-09 at 7.03.49 PM.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/design-files\/Digital Supplement\/Digital Media\/Demirjian _ Proctor, Color Yourself Inspired™\/Screen Shot 2017-08-09 at 7.03.57 PM.jpg": {
+		"ft": 16384,
+		"iS": 252392,
+		"oA": 0,
+		"oAP": "\/design-files\/Digital Supplement\/Digital Media\/Demirjian _ Proctor, Color Yourself Inspired™\/Screen Shot 2017-08-09 at 7.03.57 PM.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/design-files\/Digital Supplement\/Digital Media\/Demirjian _ Proctor, Color Yourself Inspired™\/Screen Shot 2017-08-09 at 7.04.05 PM.jpg": {
+		"ft": 16384,
+		"iS": 275241,
+		"oA": 0,
+		"oAP": "\/design-files\/Digital Supplement\/Digital Media\/Demirjian _ Proctor, Color Yourself Inspired™\/Screen Shot 2017-08-09 at 7.04.05 PM.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/design-files\/Digital Supplement\/Digital Media\/Demirjian _ Proctor, Color Yourself Inspired™\/Screen Shot 2017-08-09 at 7.04.13 PM.jpg": {
+		"ft": 16384,
+		"iS": 250979,
+		"oA": 0,
+		"oAP": "\/design-files\/Digital Supplement\/Digital Media\/Demirjian _ Proctor, Color Yourself Inspired™\/Screen Shot 2017-08-09 at 7.04.13 PM.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/design-files\/Digital Supplement\/Digital Media\/Demirjian _ Proctor, Color Yourself Inspired™\/Screen Shot 2017-08-09 at 7.04.27 PM.jpg": {
+		"ft": 16384,
+		"iS": 262903,
+		"oA": 0,
+		"oAP": "\/design-files\/Digital Supplement\/Digital Media\/Demirjian _ Proctor, Color Yourself Inspired™\/Screen Shot 2017-08-09 at 7.04.27 PM.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/design-files\/Digital Supplement\/Digital Media\/Demirjian _ Proctor, Color Yourself Inspired™\/Screen Shot 2017-08-09 at 7.04.35 PM.jpg": {
+		"ft": 16384,
+		"iS": 264417,
+		"oA": 0,
+		"oAP": "\/design-files\/Digital Supplement\/Digital Media\/Demirjian _ Proctor, Color Yourself Inspired™\/Screen Shot 2017-08-09 at 7.04.35 PM.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/design-files\/Digital Supplement\/Digital Media\/Demirjian _ Proctor, Color Yourself Inspired™\/Screen Shot 2017-08-09 at 7.04.51 PM.jpg": {
+		"ft": 16384,
+		"iS": 239531,
+		"oA": 0,
+		"oAP": "\/design-files\/Digital Supplement\/Digital Media\/Demirjian _ Proctor, Color Yourself Inspired™\/Screen Shot 2017-08-09 at 7.04.51 PM.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/design-files\/Digital Supplement\/Digital Media\/Demirjian _ Proctor, Color Yourself Inspired™\/ultra-violet.jpg": {
+		"ft": 16384,
+		"iS": 774885,
+		"oA": 0,
+		"oAP": "\/design-files\/Digital Supplement\/Digital Media\/Demirjian _ Proctor, Color Yourself Inspired™\/ultra-violet.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/design-files\/Digital Supplement\/Digital Media\/Digital Media Links - Demirjian, Proctor, Holeton, Moluthrop.docx": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/design-files\/Digital Supplement\/Digital Media\/Digital Media Links - Demirjian, Proctor, Holeton, Moluthrop.docx",
+		"oF": 0
+		},
+	"\/design-files\/Digital Supplement\/Digital Media\/Jody Zellen, Time Jitters\/Zellen embed code _ caption.docx": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/design-files\/Digital Supplement\/Digital Media\/Jody Zellen, Time Jitters\/Zellen embed code _ caption.docx",
+		"oF": 0
+		},
+	"\/design-files\/Digital Supplement\/Digital Media\/Jody Zellen, Time Jitters\/Zellen, time-jitters.mov": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/design-files\/Digital Supplement\/Digital Media\/Jody Zellen, Time Jitters\/Zellen, time-jitters.mov",
+		"oF": 0
+		},
+	"\/design-files\/Digital Supplement\/Digital Media\/Maddie Butler, 4 u (vimeo embed code).docx": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/design-files\/Digital Supplement\/Digital Media\/Maddie Butler, 4 u (vimeo embed code).docx",
+		"oF": 0
+		},
+	"\/design-files\/Digital Supplement\/E-Edition ToC_.docx": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/design-files\/Digital Supplement\/E-Edition ToC_.docx",
+		"oF": 0
+		},
+	"\/design-files\/Digital Supplement\/Fiction\/Copy of Criminal Activity in Williamsburg.doc": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/design-files\/Digital Supplement\/Fiction\/Copy of Criminal Activity in Williamsburg.doc",
+		"oF": 0
+		},
+	"\/design-files\/Digital Supplement\/Fiction\/Copy of Criminal Activity in Williamsburg.doc.docx": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/design-files\/Digital Supplement\/Fiction\/Copy of Criminal Activity in Williamsburg.doc.docx",
+		"oF": 0
+		},
+	"\/design-files\/Digital Supplement\/Fiction\/Copy of Henry James and Democracy (1).doc": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/design-files\/Digital Supplement\/Fiction\/Copy of Henry James and Democracy (1).doc",
+		"oF": 0
+		},
+	"\/design-files\/Digital Supplement\/Masthead _ Copyright 16-17 Digital Supplement.docx": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/design-files\/Digital Supplement\/Masthead _ Copyright 16-17 Digital Supplement.docx",
+		"oF": 0
+		},
+	"\/design-files\/Digital Supplement\/Non-Fiction\/Schmidt_MotherTakesAim.docx": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/design-files\/Digital Supplement\/Non-Fiction\/Schmidt_MotherTakesAim.docx",
+		"oF": 0
+		},
+	"\/design-files\/Digital Supplement\/Poetry\/Blue_PaintingYou.docx": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/design-files\/Digital Supplement\/Poetry\/Blue_PaintingYou.docx",
+		"oF": 0
+		},
+	"\/design-files\/Digital Supplement\/Poetry\/Copy of Hunerwadel_SexyPoem.pdf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/design-files\/Digital Supplement\/Poetry\/Copy of Hunerwadel_SexyPoem.pdf",
+		"oF": 0
+		},
+	"\/design-files\/Digital Supplement\/Poetry\/Copy of LeHew_PoetryTutorial.docx": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/design-files\/Digital Supplement\/Poetry\/Copy of LeHew_PoetryTutorial.docx",
+		"oF": 0
+		},
+	"\/design-files\/Digital Supplement\/Poetry\/HedgeCoke_TheySayFinalHour.docx": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/design-files\/Digital Supplement\/Poetry\/HedgeCoke_TheySayFinalHour.docx",
+		"oF": 0
+		},
+	"\/design-files\/Digital Supplement\/Poetry\/Hunerwadel_Sexy poem to cover my bases.docx": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/design-files\/Digital Supplement\/Poetry\/Hunerwadel_Sexy poem to cover my bases.docx",
+		"oF": 0
+		},
+	"\/design-files\/Digital Supplement\/Poetry\/LeHew_PoetryTutorial.docx": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/design-files\/Digital Supplement\/Poetry\/LeHew_PoetryTutorial.docx",
+		"oF": 0
+		},
+	"\/design-files\/Digital Supplement\/Poetry\/LeHew_WordsICantSpell.docx": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/design-files\/Digital Supplement\/Poetry\/LeHew_WordsICantSpell.docx",
+		"oF": 0
+		},
+	"\/design-files\/Digital Supplement\/VR_2017_E-Edition_mockup-design.docx": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/design-files\/Digital Supplement\/VR_2017_E-Edition_mockup-design.docx",
+		"oF": 0
+		},
+	"\/design-files\/Digital Supplement\/VR_2017_E-Edition_mockup-design.pdf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/design-files\/Digital Supplement\/VR_2017_E-Edition_mockup-design.pdf",
+		"oF": 0
+		},
+	"\/design-files\/digital-edition.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/design-files\/digital-edition.html",
+		"oF": 0
+		},
+	"\/design-files\/issues-page.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/design-files\/issues-page.html",
+		"oF": 0
+		},
+	"\/design-files\/vane-john-olds.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/design-files\/vane-john-olds.html",
+		"oF": 0
+		},
 	"\/design-files\/vassar-review-homepage-00.jpg": {
 		"ft": 16384,
 		"iS": 1939270,
 		"oA": 0,
 		"oAP": "\/design-files\/vassar-review-homepage-00.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/design-files\/vassar-review-homepage-00\/Links\/Dana_Harel_Only_for_the_Left_Hand_3-edit.jpg": {
 		"ft": 16384,
@@ -200,7 +1297,9 @@
 		"oA": 0,
 		"oAP": "\/design-files\/vassar-review-homepage-00\/Links\/Dana_Harel_Only_for_the_Left_Hand_3-edit.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/design-files\/vassar-review-homepage-00\/Links\/Dana_Harel_Only_for_the_Left_Hand_3.psd": {
 		"ft": 8192,
@@ -256,7 +1355,25 @@
 		"oA": 0,
 		"oAP": "\/design-files\/vassar-review-homepage-01.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/design-files\/VR-2018_cover.jpg": {
+		"ft": 16384,
+		"iS": 4256145,
+		"oA": 0,
+		"oAP": "\/design-files\/VR-2018_cover.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/design-files\/VR-covers.psd": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/design-files\/VR-covers.psd",
+		"oF": 0
 		},
 	"\/index-20160503.html": {
 		"ft": 8192,
@@ -274,6 +1391,18 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/index.html",
+		"oF": 0
+		},
+	"\/issue\/2017\/_notes\/dwsync.xml": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/issue\/2017\/_notes\/dwsync.xml",
+		"oF": 0
+		},
+	"\/issue\/2017\/digital.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/issue\/2017\/digital.html",
 		"oF": 0
 		},
 	"\/README.md": {
@@ -707,6 +1836,10 @@
 			"active": 0,
 			"optionString": "{'setWithoutGet': true, 'getWithoutSet': false}"
 			},
+		"array-bracket-newline": {
+			"active": 0,
+			"optionString": "{'multiline': true, 'minItems': null}"
+			},
 		"array-bracket-spacing": {
 			"active": 0,
 			"optionString": "'never', {'singleValue': false, 'objectsInArrays': false, 'arraysInArrays': false}"
@@ -714,6 +1847,10 @@
 		"array-callback-return": {
 			"active": 0,
 			"optionString": ""
+			},
+		"array-element-newline": {
+			"active": 0,
+			"optionString": "'always'"
 			},
 		"arrow-body-style": {
 			"active": 0,
@@ -746,6 +1883,10 @@
 		"camelcase": {
 			"active": 0,
 			"optionString": "{'properties': 'always'}"
+			},
+		"capitalized-comments": {
+			"active": 0,
+			"optionString": "'always', {'ignoreInlineComments': false, 'ignoreConsecutiveComments': false}"
 			},
 		"class-methods-use-this": {
 			"active": 0,
@@ -807,6 +1948,10 @@
 			"active": 0,
 			"optionString": "'always', {'null': 'always'}"
 			},
+		"for-direction": {
+			"active": 0,
+			"optionString": ""
+			},
 		"func-call-spacing": {
 			"active": 0,
 			"optionString": "'never'"
@@ -826,6 +1971,10 @@
 		"generator-star-spacing": {
 			"active": 0,
 			"optionString": "{'before': true, 'after': false}"
+			},
+		"getter-return": {
+			"active": 0,
+			"optionString": "{'allowImplicit': false}"
 			},
 		"global-require": {
 			"active": 0,
@@ -911,6 +2060,10 @@
 			"active": 0,
 			"optionString": "{'max': 10}, {'ignoreTopLevelFunctions': true}"
 			},
+		"max-statements-per-line": {
+			"active": 0,
+			"optionString": "{'max': 1}"
+			},
 		"multiline-ternary": {
 			"active": 0,
 			"optionString": "'always'"
@@ -943,9 +2096,17 @@
 			"active": 0,
 			"optionString": ""
 			},
+		"no-await-in-loop": {
+			"active": 0,
+			"optionString": ""
+			},
 		"no-bitwise": {
 			"active": 0,
 			"optionString": "{'allow': ['~'], 'int32Hint': true}"
+			},
+		"no-buffer-constructor": {
+			"active": 0,
+			"optionString": ""
 			},
 		"no-caller": {
 			"active": 0,
@@ -961,6 +2122,10 @@
 			},
 		"no-class-assign": {
 			"active": 1,
+			"optionString": ""
+			},
+		"no-compare-neg-zero": {
+			"active": 0,
 			"optionString": ""
 			},
 		"no-cond-assign": {
@@ -1163,6 +2328,10 @@
 			"active": 0,
 			"optionString": ""
 			},
+		"no-multi-assign": {
+			"active": 0,
+			"optionString": ""
+			},
 		"no-multi-spaces": {
 			"active": 0,
 			"optionString": "{'exceptions': {'Property': true, 'BinaryExpression': false, 'VariableDeclarator': false, 'ImportDeclaration': false}}"
@@ -1243,6 +2412,10 @@
 			"active": 0,
 			"optionString": ""
 			},
+		"no-prototype-builtins": {
+			"active": 0,
+			"optionString": ""
+			},
 		"no-redeclare": {
 			"active": 1,
 			"optionString": "{'builtinGlobals': false}"
@@ -1274,6 +2447,10 @@
 		"no-return-assign": {
 			"active": 0,
 			"optionString": "'except-parens'"
+			},
+		"no-return-await": {
+			"active": 0,
+			"optionString": ""
 			},
 		"no-script-url": {
 			"active": 0,
@@ -1435,6 +2612,10 @@
 			"active": 0,
 			"optionString": ""
 			},
+		"nonblock-statement-body-position": {
+			"active": 0,
+			"optionString": "'beside'"
+			},
 		"object-curly-newline": {
 			"active": 0,
 			"optionString": "{'ObjectExpression': {'multiline': true}, 'ObjectPattern': {'multiline': true}}"
@@ -1471,6 +2652,10 @@
 			"active": 0,
 			"optionString": "{'blocks': 'always', 'switches': 'always', 'classes': 'always'}"
 			},
+		"padding-line-between-statements": {
+			"active": 0,
+			"optionString": "{blankLine: 'always', prev:'*', next:'return'}"
+			},
 		"prefer-arrow-callback": {
 			"active": 0,
 			"optionString": ""
@@ -1479,9 +2664,17 @@
 			"active": 0,
 			"optionString": "{'destructuring': 'any', 'ignoreReadBeforeAssign': false}"
 			},
+		"prefer-destructuring": {
+			"active": 0,
+			"optionString": "{'array': true, 'object': true}, {'enforceForRenamedProperties': false}"
+			},
 		"prefer-numeric-literals": {
 			"active": 0,
 			"optionString": ""
+			},
+		"prefer-promise-reject-errors": {
+			"active": 0,
+			"optionString": "{'allowEmptyReject': false}"
 			},
 		"prefer-rest-params": {
 			"active": 0,
@@ -1507,6 +2700,10 @@
 			"active": 0,
 			"optionString": "'always'"
 			},
+		"require-await": {
+			"active": 0,
+			"optionString": ""
+			},
 		"require-jsdoc": {
 			"active": 0,
 			"optionString": "{'require': {'FunctionDeclaration': true, 'MethodDefinition': false, 'ClassDeclaration': false}}"
@@ -1526,6 +2723,10 @@
 		"semi-spacing": {
 			"active": 0,
 			"optionString": "{'before': false, 'after': true}"
+			},
+		"semi-style": {
+			"active": 0,
+			"optionString": "'last'"
 			},
 		"sort-imports": {
 			"active": 0,
@@ -1567,11 +2768,19 @@
 			"active": 0,
 			"optionString": "'safe'"
 			},
+		"switch-colon-spacing": {
+			"active": 0,
+			"optionString": "{'after': true, 'before': false}"
+			},
 		"symbol-description": {
 			"active": 0,
 			"optionString": ""
 			},
 		"template-curly-spacing": {
+			"active": 0,
+			"optionString": "'never'"
+			},
+		"template-tag-spacing": {
 			"active": 0,
 			"optionString": "'never'"
 			},
@@ -2018,7 +3227,8 @@
 		"autoOutputPathRelativePath": "",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
-		"autoOutputPathStyle": 0
+		"autoOutputPathStyle": 0,
+		"quality": 100
 		},
 	"languageDefaultsJS": {
 		"autoOutputAction": 0,
@@ -2041,14 +3251,6 @@
 		"autoOutputPathStyle": 0,
 		"orderOutput": 0,
 		"outputStyle": 1
-		},
-	"languageDefaultsJSX": {
-		"autoOutputAction": 0,
-		"autoOutputPathFilenamePattern": "*.js",
-		"autoOutputPathRelativePath": "",
-		"autoOutputPathReplace1": "jsx",
-		"autoOutputPathReplace2": "js",
-		"autoOutputPathStyle": 0
 		},
 	"languageDefaultsKIT": {
 		"autoOutputAction": 0,
@@ -2111,7 +3313,9 @@
 		"autoOutputPathRelativePath": "",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
-		"autoOutputPathStyle": 0
+		"autoOutputPathStyle": 0,
+		"optimizerType": 1,
+		"quality": 100
 		},
 	"languageDefaultsPUG": {
 		"autoOutputAction": 0,
@@ -2196,9 +3400,11 @@
 		},
 	"languageDefaultsUserDefined": [
 		],
+	"overrideExternalServerCSS": 0,
 	"previewPathAddition": "",
 	"skippedFoldersString": "log, _logs, logs, _cache, cache, \/storage\/framework\/sessions, node_modules",
 	"sourceFolderName": "source",
+	"susyVersion": 3,
 	"uglifyDefinesString": "",
 	"uglifyFlags2": {
 		"ascii-only": {
@@ -2339,6 +3545,10 @@
 			},
 		"space-colon": {
 			"active": 1,
+			"flagValue": -1
+			},
+		"support-ie8": {
+			"active": 0,
 			"flagValue": -1
 			},
 		"toplevel": {

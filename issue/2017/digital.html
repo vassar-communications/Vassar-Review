@@ -1,0 +1,138 @@
+<?php 
+namespace gamut; 
+echo 
+    U_DOCTYPE.
+    U_HTML_OPEN.
+    U_HEAD_OPEN;
+?>
+
+
+        
+        <?php 
+            echo U_META; 
+        ?>
+        
+        
+        
+        
+        
+
+        <?php echo U_META_TITLE_OPEN . U_META_TITLE_NON_CMS; ?>                                                                                         
+    Digital Edition -     <?php echo U_META_TITLE . U_META_TITLE_CLOSE; ?> 
+
+<?php echo U_HEAD; ?>  
+
+
+
+<?php 
+echo 
+    U_HEAD_CLOSE; 
+    flush(); 
+    echo U_BODY_OPEN;
+?>
+
+
+<?php 
+    echo 
+        U_SKIP_LINKS.
+        U_HEADER_OPEN; 
+?>
+
+
+
+<?php echo U_HEADER; ?>
+
+
+
+<?php 
+echo 
+    U_HEADER_CLOSE.
+    U_MAIN_OPEN.
+    U_CONTENT_OPEN.
+    U_NAV_BREADCRUMBS; 
+?>
+                                                                                                    
+    
+<?php echo U_CONTENT_TITLE_OPEN;
+ echo html_entity_decode("Digital Edition");
+ echo U_CONTENT_TITLE_CLOSE; ?>
+    
+
+
+
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    
+
+<h3>2017 | Camp &amp; Kitsch<br/>
+ Modes of Cultural Appropriation &amp; Resistance</h3>
+<p class="centerGraph">This edition includes all exclusive works</p>
+<div class="u-Excerpt poetryNarrow">
+<h4 class="u-Excerpt__title">painting you</h4>
+<strong class="u-Excerpt__author">Latiana Blue</strong> 
+<p class="u-Excerpt__paragraph">If color could be grabbed<br/>
+ like I touch you with desire,<br/>
+ id caress you&#8232;<br/>
+ And paint seasons,&#8232;<br/>
+ aflush with ruby shades&#160;</p>
+<p class="u-Excerpt__paragraph">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; id sketch a sun from slate.&#160;</p>
+</div>
+<div class="figure u-Figure "><figure><img alt="" class="u-Figure__image" height="1333" src="/render/file.act?path=/web/assets/images/2017/Barahona_MIDDLE.jpg" width="2000"/><div class="figcaption u-Figure__caption"><figcaption> <b class='artist'>Fredman Barahona / Elyla Sinverg&#252;enza, Devenir Torovenado</b></figcaption></div></figure></div> 
+<div class="u-Excerpt">
+<p class="u-Excerpt__paragraph">Need Video embed code for Vimeo hosted videos</p>
+</div>
+<div class="u-Excerpt">
+<h4 class="u-Excerpt__title">Color Yourself Inspired&#8482;</h4>
+<strong class="u-Excerpt__author">Andrew Demirjian and James Proctor</strong> <a href="http://www.andrewdemirjian.com/color/index.html" title="Website link"><div class="figure u-Figure figure-center u-Figure--center"><figure><img alt="" class="u-Figure__image" height="1500" src="/render/file.act?path=/web/assets/images/2017/ultra-violet.jpg" width="2400"/></figure></div></a> 
+<p class="u-Excerpt__paragraph"></p>
+<p class="u-Excerpt__paragraph"><a href="http://www.andrewdemirjian.com/color/index.html" title="Website link">Color Yourself Inspired</a>&#8482; is a digital generative poem by Andrew Demirjian and James Proctor. The work culturally appropriates the language of home decor paint (a la Benjamin Moore) to produce short poetic phrases. By removing the text from its original setting and recombining with other phrases from the database, the work explores the interplay between perception, psychology, economics, culture, chance and language.</p>
+</div>
+<div class="u-Excerpt poetryNarrow">
+<h4 class="u-Excerpt__title">Words I Can’t Spell</h4>
+<strong class="u-Excerpt__author">Laura LeHew</strong> 
+<p class="u-Excerpt__paragraph">a craven Sky<br />nebulous efficacy<br />constabulary & calculations<br />the relationship Between<br />4 in the Morning & wind turbines<br />the colors of Venice<br />Somewhere in between<br />cobalt—turquoise<br />teardrops<br />molecules of Why<br />uncertain charms<br />nitrogen mimosas<br />death tolls in Kabul</p>
+</div>
+<div class="u-Excerpt">
+<h4 class="u-Excerpt__title">8 Bit Bepop</h4>
+<strong class="u-Excerpt__author">Chanhee Choi</strong> 
+<p class="u-Excerpt__paragraph">a craven Sky<br />nebulous efficacy<br />constabulary & calculations<br />the relationship Between<br />4 in the Morning & wind turbines<br />the colors of Venice<br />Somewhere in between<br />cobalt—turquoise<br />teardrops<br />molecules of Why<br />uncertain charms<br />nitrogen mimosas<br />death tolls in Kabul</p>
+</div>
+
+<div class="u-Excerpt__donateButton"><!--#passthrough
+<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top"><input type="hidden" name="cmd" value="_s-xclick"><input type="hidden" name="hosted_button_id" value="NVAZQZTSKZHBW"><input type="image" src="http://review.vassar.edu/assets/images/vassar-review-buy-button.png" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!"><img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1"></form>
+#passthrough--></div>
+
+<?php echo CMS_PAGE_CONTENT; ?>
+
+
+            
+
+<?php 
+echo 
+    U_CONTENT_CLOSE.
+    U_ASIDE_OPEN; ?>
+
+
+
+
+
+
+<?php echo U_ASIDE; ?>
+
+
+<?php if(!IS_NEWS_INNER){@include("sidebar.html");}?>
+
+
+
+        <?php echo 
+            U_ASIDE_CLOSE .
+            U_MAIN_CLOSE .
+            U_SEARCH .
+            U_NAV .
+            U_FOOTER_OPEN.
+            U_VCARD.
+            U_FOOTER_CLOSE.
+            U_JS_LOCAL.
+            U_BODY_CLOSE.
+            U_HTML_CLOSE;
+        ?>
+        
