@@ -370,7 +370,29 @@ b.pipe {
 .centerGraph {
     text-align: center;
 }
-
+.tableOfContents {
+    background: #ddd;
+    margin-top: 2em;
+    padding: 1em;
+}
+.toc__item {
+    list-style: none;
+    margin: 0;
+}
+.toc__item {
+	a {
+    	display: block;
+    	border-color: #eee;
+	}
+	a:visited {
+    	border-color: #eee;
+	}
+	a:hover,
+	a:visited:hover {
+    	color: #fff;
+    	border-color: #eee;
+	}
+}
 @media all and (min-width: $tiny) {
     .u-Masthead__siteName {
         font-size: 1.5em;
@@ -653,42 +675,44 @@ b.pipe {
     .u-lMain {
         margin-top: 0; 
     }
-        .Module--contact .Module__name {
-            margin-top: 0;
-        }
-        .u-lContent {
-            h2:nth-of-type(1),
-            h3:nth-of-type(1) {
-                /* position: absolute;
-                right: 3%;
-                top: 6%;
-                width: 97%;
-                text-align: right;
-                z-index: 10; */
-            }
-            h3:nth-of-type(1) {
-                /* top: 6.5%; */
-            }
-            .u-Figure {
-                position: relative;
-            }
-            .u-Figure__caption {
-                position: absolute;
-                bottom: 3%;
-                right: 3%;
-            }
-            .u-Figure--juliarandall .u-Figure__caption {
-                right: auto;
-                left: 3%;
-            }
-            .u-Figure--coverImage .u-Figure__caption {
-                right: 7%;
-            }
-			.u-Figure--coverImage {
-				margin-top: 0;
-			}
-        }
-    }
+	.Module--contact .Module__name {
+		margin-top: 0;
+	}
+	.u-lContent {
+		h2:nth-of-type(1),
+		h3:nth-of-type(1) {
+			/* position: absolute;
+			right: 3%;
+			top: 6%;
+			width: 97%;
+			text-align: right;
+			z-index: 10; */
+		}
+		h3:nth-of-type(1) {
+			/* top: 6.5%; */
+		}
+		.u-Figure {
+			position: relative;
+		}
+		.u-Figure__caption {
+			position: absolute;
+			bottom: 3%;
+			right: 3%;
+		}
+		.u-Figure--juliarandall .u-Figure__caption {
+			right: auto;
+			left: 3%;
+		}
+		.u-Figure--coverImage .u-Figure__caption {
+			position: absolute;
+			top: 6em;
+			right: 1em;
+		}
+		.u-Figure--coverImage {
+			margin-top: 0;
+		}
+	}
+}
 @media all and (min-width: $medium) {
     html {
         padding: 0;
@@ -898,4 +922,52 @@ h4.asideSect__vrid {
 			color: $fontColor;				
 		}
 	}
+}
+/* global nav styles in */
+@media (min-width: 50em) {
+	.u-lContent .introText {
+		top: 20em;top: 42vw;
+	}
+}
+html.g- {
+    font-size: 100%;
+}
+.g- .PageContent {
+    font-size: 1.4em;
+    font-size: calc(1.15em + 0.5 * ((100vw - 20em) / 75));
+}
+.g- body {
+    max-width: 100%;
+}
+.u-VCard--site .u-VCard__adr,
+.u-VCard--site .u-VCard__item, 
+.u-VCard--site .u-VCard__info, 
+.u-VCard--site .u-List--site, 
+.u-VCard--site .u-List__item {
+    font-size:.9em;
+}
+.u-VCard__info b,
+.u-VCard__item--tel,
+.u-VCard__item--contact,
+.u-List__item--admissions,
+.u-List__item--infoSite {
+    font-size: 1em !important;
+}
+@media (min-width: 50em) {
+    .g- .PageContent {
+        font-size: 1.4em;
+        font-size: calc(1em + 0.5 * ((100vw - 20em) / 60));
+    }
+    .g- .u-lContent .introText {
+		top: 20em;top: 42vw;
+	}
+    .g- .u-lHeader {
+        position: relative;
+    }
+    .g- .u-NavSite {
+        position: absolute;
+    }
+}
+.g- .u-lContent .u-Excerpt.u-Excerpt--callBar {
+    padding: 2em 0;
 }
