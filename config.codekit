@@ -1,6 +1,6 @@
 {
 "CodeKitInfo": "This is a CodeKit 2.x project configuration file. It is designed to sync project settings across multiple machines. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. If you do so, you will likely cause CodeKit to crash. This file is not useful unless accompanied by the project that created it in CodeKit 2. This file is not backwards-compatible with CodeKit 1.x. For more information, see: http:\/\/incident57.com\/codekit",
-"creatorBuild": "19127",
+"creatorBuild": "19137",
 "files": {
 	"\/404.html": {
 		"fileType": 8192,
@@ -28,6 +28,259 @@
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
+		},
+	"\/assets\/images\/2017\/Altar_H_F_0734.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 112428,
+		"inputAbbreviatedPath": "\/assets\/images\/2017\/Altar_H_F_0734.jpg",
+		"outputAbbreviatedPath": "\/assets\/images\/2017\/Altar_H_F_0734.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/2017\/Barahona_DevenirTorovenado_3.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 86955,
+		"inputAbbreviatedPath": "\/assets\/images\/2017\/Barahona_DevenirTorovenado_3.jpg",
+		"outputAbbreviatedPath": "\/assets\/images\/2017\/Barahona_DevenirTorovenado_3.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/2017\/Barahona_MIDDLE.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 227368,
+		"inputAbbreviatedPath": "\/assets\/images\/2017\/Barahona_MIDDLE.jpg",
+		"outputAbbreviatedPath": "\/assets\/images\/2017\/Barahona_MIDDLE.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/2017\/Galaxy.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 116522,
+		"inputAbbreviatedPath": "\/assets\/images\/2017\/Galaxy.jpg",
+		"outputAbbreviatedPath": "\/assets\/images\/2017\/Galaxy.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/2017\/holeton-screen-grab.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 118183,
+		"inputAbbreviatedPath": "\/assets\/images\/2017\/holeton-screen-grab.jpg",
+		"outputAbbreviatedPath": "\/assets\/images\/2017\/holeton-screen-grab.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/2017\/Hovnanian-Blood-Stain-Remover.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 97365,
+		"inputAbbreviatedPath": "\/assets\/images\/2017\/Hovnanian-Blood-Stain-Remover.jpg",
+		"outputAbbreviatedPath": "\/assets\/images\/2017\/Hovnanian-Blood-Stain-Remover.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/2017\/Hovnanian_Texas-Beauty-Queen-Cream-Depressing.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 112748,
+		"inputAbbreviatedPath": "\/assets\/images\/2017\/Hovnanian_Texas-Beauty-Queen-Cream-Depressing.jpg",
+		"outputAbbreviatedPath": "\/assets\/images\/2017\/Hovnanian_Texas-Beauty-Queen-Cream-Depressing.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/2017\/Hovnanian_Texas-Beauty-Queen-Cream.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 96330,
+		"inputAbbreviatedPath": "\/assets\/images\/2017\/Hovnanian_Texas-Beauty-Queen-Cream.jpg",
+		"outputAbbreviatedPath": "\/assets\/images\/2017\/Hovnanian_Texas-Beauty-Queen-Cream.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/2017\/lg-Stillman_See-It.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 171816,
+		"inputAbbreviatedPath": "\/assets\/images\/2017\/lg-Stillman_See-It.jpg",
+		"outputAbbreviatedPath": "\/assets\/images\/2017\/lg-Stillman_See-It.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/2017\/Lindberg_Taut-Green.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 149747,
+		"inputAbbreviatedPath": "\/assets\/images\/2017\/Lindberg_Taut-Green.jpg",
+		"outputAbbreviatedPath": "\/assets\/images\/2017\/Lindberg_Taut-Green.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/2017\/Loop-Pa-Pow.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 63173,
+		"inputAbbreviatedPath": "\/assets\/images\/2017\/Loop-Pa-Pow.jpg",
+		"outputAbbreviatedPath": "\/assets\/images\/2017\/Loop-Pa-Pow.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/2017\/Munson_Pink-Project-Table.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 146349,
+		"inputAbbreviatedPath": "\/assets\/images\/2017\/Munson_Pink-Project-Table.jpg",
+		"outputAbbreviatedPath": "\/assets\/images\/2017\/Munson_Pink-Project-Table.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/2017\/Munson_Sarcophagus.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 134178,
+		"inputAbbreviatedPath": "\/assets\/images\/2017\/Munson_Sarcophagus.jpg",
+		"outputAbbreviatedPath": "\/assets\/images\/2017\/Munson_Sarcophagus.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/2017\/Setright_En-La-Chureca.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 143627,
+		"inputAbbreviatedPath": "\/assets\/images\/2017\/Setright_En-La-Chureca.jpg",
+		"outputAbbreviatedPath": "\/assets\/images\/2017\/Setright_En-La-Chureca.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/2017\/Setright_En-Las-Calles.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 199551,
+		"inputAbbreviatedPath": "\/assets\/images\/2017\/Setright_En-Las-Calles.jpg",
+		"outputAbbreviatedPath": "\/assets\/images\/2017\/Setright_En-Las-Calles.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/2017\/Setright_Enfrente-de-la-Embajada-de-los-Estados-Unidos.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 89381,
+		"inputAbbreviatedPath": "\/assets\/images\/2017\/Setright_Enfrente-de-la-Embajada-de-los-Estados-Unidos.jpg",
+		"outputAbbreviatedPath": "\/assets\/images\/2017\/Setright_Enfrente-de-la-Embajada-de-los-Estados-Unidos.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/2017\/Setright_Enfrente-de-Walmart.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 109734,
+		"inputAbbreviatedPath": "\/assets\/images\/2017\/Setright_Enfrente-de-Walmart.jpg",
+		"outputAbbreviatedPath": "\/assets\/images\/2017\/Setright_Enfrente-de-Walmart.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/2017\/Setright_Molotov-Man-enfrente-de-McDonalds.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 96412,
+		"inputAbbreviatedPath": "\/assets\/images\/2017\/Setright_Molotov-Man-enfrente-de-McDonalds.jpg",
+		"outputAbbreviatedPath": "\/assets\/images\/2017\/Setright_Molotov-Man-enfrente-de-McDonalds.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/2017\/Setright_Plaza-de-las-Victorias.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 104908,
+		"inputAbbreviatedPath": "\/assets\/images\/2017\/Setright_Plaza-de-las-Victorias.jpg",
+		"outputAbbreviatedPath": "\/assets\/images\/2017\/Setright_Plaza-de-las-Victorias.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/2017\/SO_Title.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 296821,
+		"inputAbbreviatedPath": "\/assets\/images\/2017\/SO_Title.jpg",
+		"outputAbbreviatedPath": "\/assets\/images\/2017\/SO_Title.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/2017\/Stillman_See-It.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 169472,
+		"inputAbbreviatedPath": "\/assets\/images\/2017\/Stillman_See-It.jpg",
+		"outputAbbreviatedPath": "\/assets\/images\/2017\/Stillman_See-It.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/2017\/Tugbiyele_Heart-Inner-Outer-Light.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 259292,
+		"inputAbbreviatedPath": "\/assets\/images\/2017\/Tugbiyele_Heart-Inner-Outer-Light.jpg",
+		"outputAbbreviatedPath": "\/assets\/images\/2017\/Tugbiyele_Heart-Inner-Outer-Light.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/2017\/ultra-violet.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 98345,
+		"inputAbbreviatedPath": "\/assets\/images\/2017\/ultra-violet.jpg",
+		"outputAbbreviatedPath": "\/assets\/images\/2017\/ultra-violet.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
 		},
 	"\/assets\/images\/_MG_7614.jpg": {
 		"fileType": 16384,
@@ -150,6 +403,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/assets\/images\/VR-2016_cover.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 107252,
+		"inputAbbreviatedPath": "\/assets\/images\/VR-2016_cover.jpg",
+		"outputAbbreviatedPath": "\/assets\/images\/VR-2016_cover.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/VR-2017_cover.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 85534,
+		"inputAbbreviatedPath": "\/assets\/images\/VR-2017_cover.jpg",
+		"outputAbbreviatedPath": "\/assets\/images\/VR-2017_cover.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/assets\/nav.html": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -216,39 +491,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/design-files\/vassar-review-homepage-00.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 1.93927e+06,
-		"inputAbbreviatedPath": "\/design-files\/vassar-review-homepage-00.jpg",
-		"outputAbbreviatedPath": "\/design-files\/vassar-review-homepage-00.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/design-files\/vassar-review-homepage-00\/Links\/Dana_Harel_Only_for_the_Left_Hand_3-edit.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 2.01965e+06,
-		"inputAbbreviatedPath": "\/design-files\/vassar-review-homepage-00\/Links\/Dana_Harel_Only_for_the_Left_Hand_3-edit.jpg",
-		"outputAbbreviatedPath": "\/design-files\/vassar-review-homepage-00\/Links\/Dana_Harel_Only_for_the_Left_Hand_3-edit.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/design-files\/vassar-review-homepage-01.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 0,
-		"inputAbbreviatedPath": "\/design-files\/vassar-review-homepage-01.jpg",
-		"outputAbbreviatedPath": "\/design-files\/vassar-review-homepage-01.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/index-20160503.html": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -272,6 +514,15 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/issue\/2017\/digital.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/issue\/2017\/digital.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -300,7 +551,7 @@
 	},
 "hooks": [
 	],
-"lastSavedByUser": "samacaluso",
+"lastSavedByUser": "CIS-admin",
 "manualImportLinks": {
 	},
 "projectAttributes": {

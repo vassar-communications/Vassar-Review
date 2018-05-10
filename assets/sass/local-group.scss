@@ -122,9 +122,11 @@ b.pipe {
 	}
 }
 .list--aboutPage--contributors {
-	float: left;
-	width: 33%;
-	padding-right: 5%;
+	@media (min-width: $small) {
+		float: left;
+		width: 33%;
+		padding-right: 5%;
+	}
 	p {
 		font-size: .8em;
 		font-family: $serif;
@@ -971,3 +973,603 @@ html.g- {
 .g- .u-lContent .u-Excerpt.u-Excerpt--callBar {
     padding: 2em 0;
 }
+
+
+/*	2018 issue
+	==================== */
+
+.u-lHeader {
+	top: 0;
+}
+
+
+/*	Main index page
+	-------------------- */
+
+.main-index {
+    max-width: 40em;
+    margin: 0 auto;
+
+	@media (min-width: $medium) {
+	    display: flex;
+	}
+}
+.main-index .col {
+    text-align: center;
+    
+    a, a:visited {
+	    color: #ddd;
+    }
+    a:hover, a:visited:hover {
+	    color: #fff;
+    }
+
+	@media (min-width: $medium) {
+	    padding: 3em;
+	    width: 50%;
+	}
+}
+
+
+/*	Digital edition page
+	-------------------- */
+
+body {
+    position: relative;
+}
+.icon-grid {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 46em;
+    margin: 0 auto;
+
+	.item {
+	    width: 50%;
+
+		@media (min-width: $tiny) {
+		    width: 50%;
+		}
+		@media (min-width: $small) {
+		    width: 25%;
+		}
+
+		padding: 1em;
+		transition: ease 0.5s all;
+
+		&:hover {
+			padding: 0;
+		}
+		
+		&.is-image-icon {
+			//	Adds border and slight shadow to replicate Mac image
+			//	icon style (means this styling doesn't have to be done
+			//	in Photoshop
+			img {
+				border: 0.4em solid #fff;
+				box-shadow: 0 2px 4px rgba(0,0,0,0.4);
+			}
+		}
+		
+		h3 {
+			a, a:visited {
+				color: #fff;
+				border: none;
+			}
+		}
+		
+		.u-Figure {
+			margin: 0 0 0.4em 0;
+		}
+	}
+	h3 {
+	    color: #fff;
+	    font-size: 0.9em;
+	    font-weight: normal;
+	    margin: 0;
+	    padding: 0;
+	    text-align: center;
+	    width: 100%;
+	    word-wrap: break-word;
+	}
+	.artist {
+		color: #3af;
+		display: block;
+		font-size: 0.8em;
+		font-weight: normal;
+		font-family: $sans-serif;
+		text-align: center;
+	}
+
+}
+
+.tableOfContents {
+	background: #ddd;
+	margin-top: 2em;
+	padding: 1em
+}
+.toc__item {
+	list-style: none;
+	margin: 0;
+
+	a {
+		display: block;
+		border-color: #eee;
+
+		&:visited {
+			border-color: #eee;
+		}
+		&:hover, 
+		&:visited:hover {
+			color: #fff;
+			border-color: #eee;
+		}
+	}
+}
+
+
+// .u-folder2018,
+.u-folderDigital {
+ 	background: #303030;
+ 	
+ 	.u-NavSite {
+	 	background: #efefef;
+	 	
+	 	@media (min-width: $small) {
+		 	background: transparent;
+		}
+ 	}
+
+ 	body, .u-lMain {
+ 		background: transparent;
+ 	}
+   
+    .u-pageTitle {
+	    color: #aaa;
+    }
+}
+.u-folderDigital {
+	.u-pageTitle {
+		margin: 0 auto 2em auto;
+	}
+}
+
+@media (min-width: $medium) {
+	.med-50 {
+		width: 50%;
+	}
+	.med-flex {
+		display: flex;
+		flex-wrap: wrap;
+	}
+}
+.grid {
+	background: #303030;
+	color: #ddd;
+}
+.issue__header {
+	padding: 2em 0 1em 0;
+	width: 100%;
+}
+.issue__info {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 0.8em;
+    letter-spacing: 0.3em;
+    color: #aaa;
+}
+.issue__title {
+	font-family: $sans-serif;
+	font-size: 3em;
+	line-height: 1;
+	margin: 0;
+	text-align: center;
+}
+.issue__subtitle {
+	text-align: center;		
+}
+
+.edition {
+	padding: 2em;
+	
+	h3, p {
+		width: 100% !important;
+		max-width: none;
+	}
+	.edition__type {
+		color: #aaa;
+		font-size: 0.7em;
+		text-transform: uppercase;
+		font-weight: bold;
+		letter-spacing: 0.16em;
+		margin: 1em 0 2em 0;
+		
+		.button {
+			font-size: 1.1em;
+			border-radius: 0.2em;
+			display: block;
+			margin: 1em auto;
+			padding: 0.6em 1em;
+			width: 6em;
+
+			@media (min-width: $medium) {
+				display: inline-block;
+				margin: 0;
+				padding: 0.3em 0.6em 0.2em 0.6em;
+				width: auto;
+				font-size: 0.8em;
+			}
+			
+			&:link, &:visited {
+				background: #f00;
+				color: #fff !important;
+			}
+			&:hover, &:visited:hover, &:active {
+				background: #fff;
+				color: #f00 !important;
+			}
+		}
+	}
+}
+.section--video-preview {
+	background: #000;
+	padding: 2em 0;
+	
+	.u-Video {
+		margin: 0 auto;
+	}
+}
+.download {
+    text-align: center;
+    padding: 1em;
+}
+
+/*	Galleria - Homepage
+	=================== */
+.galleria {
+	margin: 0;
+}
+.galleria-info {
+    width: auto;
+
+	@media (min-width: $medium) {
+	    top: 1.8em;
+	    left: 1.4em;
+	}
+}
+.galleria-info-text {
+	background: rgba(0,0,0,0.45);
+	padding: 0.4em 0.8em;
+}
+.galleria-info-description {
+	font: normal 1.2em/1.4 $sans-serif;
+
+	&.u-Figure__caption--description a {
+		border: none;
+		text-decoration: none;
+		
+		&:hover,
+		&:visited:hover {
+			border: none;
+			color: #aaa;
+		}
+	}
+}
+
+.issues-grid {
+	padding: 2em;
+	background: rgba(0,0,0,0.1);
+	
+	.grid__title {
+		text-align: center;
+		width: 100%;
+	}
+
+	.u-Figure {
+		position: relative;
+		box-shadow: 0 4px 4px rgba(0,0,0,0.1);
+	}
+
+	@media (min-width: $small) {
+		display: flex;
+		flex-wrap: wrap;
+	}
+	.issue {
+		padding: 2em;
+		transition: 0.5s ease all;
+		
+		.u-Figure__image,
+		figure {
+			transition: 0.5s ease all;
+			
+			img {
+				box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+			}
+		}
+		
+		a {
+			&:link,
+			&:visited,
+			&:hover,
+			&:visited:hover {
+				color: #fff;
+			}
+		}
+		
+		&:hover {
+			padding: 1em;
+
+			@media (min-width: $small) {
+				.u-Figure {
+					box-shadow: 0 4px 4px rgba(0,0,0,0.4);
+				}
+				.u-Figure__image {
+					width: 98%;
+					margin-right: 2%;
+				}
+				figure {
+					transform: translate(0, -0.3em) skew(0, -2deg);
+				}
+			}
+		}
+		@media (min-width: $medium) {
+			width: 33%;
+		}
+	}
+}
+
+.contributors__list {
+	margin-bottom: 0;
+	
+	li {
+		display: inline;
+		list-style: none;
+
+		&:after {
+			content: "\00B7";
+			margin: 0 0.2em 0 0.4em;
+		}
+		&:last-child:after {
+			display: none;
+		}
+	}
+}
+
+
+.u-pageHome {
+	.u-Figure {
+		margin: 2em 0;
+	}
+	.u-Figure__caption {
+		position: static;
+		background: none;
+		color: #666;
+		text-align: center;
+	}
+	.u-Excerpt__vrid {
+		display: block;
+		text-align: center;
+		padding: 2em;
+	}
+}
+
+@media (min-width: $medium) {
+	.u-lHeader {
+		position: static;
+	}
+	#navigation:target, .u-NavSite {
+		position: absolute;
+	}
+}
+
+@media (min-width: $medium) {
+	
+	.issuesList .u-Figure__caption {
+		margin-top: 0;
+	    position: absolute;
+	    top: 3%;
+	    right: 3%;
+	    bottom: auto;
+	}
+}
+
+.contributors {
+    background: #fff;
+    padding: 1em;
+}
+.normal-width {
+    max-width: 30em;
+    margin: 0 auto;
+}
+.buy-print-edition {
+	margin-bottom: 1em;
+	text-align: center;
+
+	@media (min-width: $small) {
+	    position: absolute;
+	    top: 6em;
+	    z-index: 99;
+	    right: 1em;
+	}
+
+	input[type="image"] {
+	    width: 9em;
+	}
+	.u-Figure {
+		position: absolute !important;
+		width: 1px;
+		height: 1px;
+		overflow: hidden;
+	}
+}
+
+.widepoem {
+	.u-Excerpt__paragraph {
+		@media (min-width: $medium) {
+			margin-left: 30% !important;
+		}
+	}
+}
+.more {
+	text-align: center;
+	
+	a {
+	    font-family: $sans-serif;
+	    font-size: 0.8em;
+	    font-weight: bold;
+	}
+}
+
+@media (min-width: $medium) {
+	.u-pageInner .u-lMain {
+	    margin: 5em 0;
+	}
+}
+
+.digital-edition-home {
+	text-align: center;
+}
+
+/*
+
+@media (min-width: 50em) {
+	.u-pageInner .u-lMain {
+	    margin: 4.5em 0 5em;
+	    margin: 6em 0 5em;
+	}
+}
+body {
+	background: #303030;
+}
+.u-lHeader {
+	background: transparent;
+}
+.u-lMain {
+	background: #efefef;
+}
+*/
+
+// @media (min-width: $small) {
+//	#mackey {
+		pre.poem {
+			font-size: 1em;
+			font-family: "freight-text-pro", "Georgia";
+			font-weight: 400;
+			text-align: center;
+		}
+//	}
+// }
+
+.cropped {
+    height: 30em;
+    overflow: hidden;
+    position: relative;
+    margin-top: 1em 0 !important;
+}
+.cropped:after {
+    position:absolute;
+    content: "";
+    width: 100%;
+    height: 20em;
+	background: linear-gradient(to bottom, rgba(255,255,255,0) 0%,rgba(244,244,244,1) 71%,rgba(239,239,239,1) 100%);
+    bottom: 0;
+}
+
+
+.excerpt-buy-button {
+    position: absolute;
+    top: 24em;
+    text-align: center;
+    width: 100%;
+    z-index: 9;
+    margin-left: 3em;
+}
+.excerpt-buy-button input[type="image"] {
+    width: 8em;
+}   
+
+form img {
+    width: 1px !important;
+    height: 1px !important;
+}
+
+
+
+h1 a:link, h2 a:link, h3 a:link, h4 a:link, h5 a:link, h6 a:link {
+	border-bottom: 1px solid #000;
+	
+	&:hover, &:visited:hover {
+		border-color: #B9A371;
+	}
+}
+.u-lContent .u-Excerpt {
+    margin: 0;
+}
+@media (min-width: $medium) {
+	.u-lContent {
+		.u-Excerpt.poetryNarrow#wilkinson {
+			.u-Excerpt__paragraph {
+				margin-left: 37%;
+			}
+		}
+		.u-Excerpt.poetryNarrow#love {
+			.u-Excerpt__paragraph {
+				margin-left: 35.6%;
+			}
+		}
+	}
+}
+
+
+.readmore {
+	position: absolute;
+	z-index: 9;
+	top: 24em;
+	text-align: center;
+	display: block;
+	width: 100% !important;
+	
+	a {
+		
+	}
+}
+.note {
+	font-size: 0.9em;
+}
+
+
+.u-pageInner.u-folder2018 {
+	.u-lContent {
+//		color: #bbb;
+	}
+}
+
+.u-Excerpt#pabarue,
+.u-Excerpt#love {
+	margin-bottom: 3em;
+}
+
+@media (min-width: 500px) {
+	.engram__poem {
+		padding-left: 16.6%;
+	}
+}
+.back_to_home {
+	text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
