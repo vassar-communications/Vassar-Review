@@ -400,9 +400,8 @@ b.pipe {
       background-color: transparent;
       position: absolute;
       z-index: 10;
-      right: 5%;
-      top: 11em;
-      top: 29vw;
+      left: 0;
+      top: 0;
       padding: .75em; }
       .u-lContent .introText h2,
       .u-lContent .introText h3 {
@@ -771,11 +770,11 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 .u-lContent .u-Figure--nuriafarre .u-Figure__caption {
   color: #303030; }
 .u-lContent .u-Excerpt__vrid {
-  color: #8d8d8d; }
+  color: tint(#303030, 45%); }
 .u-lContent .u-Excerpt__donateButton {
-  border-top: 1px solid #cbcbcb; }
+  border-top: 1px solid tint(#303030, 75%); }
 .u-lContent p.u-Excerpt__donateButton--paragraph {
-  color: #8d8d8d; }
+  color: tint(#303030, 45%); }
 .u-lContent .u-Excerpt--callBar {
   background-color: #e6cf99;
   color: #303030;
@@ -836,7 +835,7 @@ h4.asideSect__vrid {
   background-color: #fffbf8; }
 
 .issuesList img {
-  border: 1px solid #d6d6d6; }
+  border: 1px solid tint(#303030, 80%); }
 
 @media all and (min-width: 50em) {
   .u-lHeader,

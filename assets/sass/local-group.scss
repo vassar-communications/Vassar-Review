@@ -1,5 +1,4 @@
 @import "_mixins";
-@import "compass";
 @import "_config";
 
 /* ==============================
@@ -440,9 +439,8 @@ b.pipe {
 			background-color: transparent;
 			position: absolute;
 			z-index: 10;
-			right: 5%;
-			top: 11em;
-			top: 29vw;
+			left: 0;
+			top: 0;
 			padding: .75em;
 			h2,
 			h3 {
@@ -908,8 +906,6 @@ h4.asideSect__vrid {
         }
     }
 	.u-lContent {
-		.introText {
-		}
 		.u-Figure__caption {
 			text-align: left;
 		}
