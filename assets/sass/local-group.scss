@@ -405,7 +405,8 @@ b.pipe {
 	.u-lContent {
 		.introText {
 			h2 {
-				font-size: 2.602em;
+				font-size: 1.602em;
+                font-weight: normal;
 			}
 		}
 	}
@@ -928,7 +929,7 @@ h4.asideSect__vrid {
 /* global nav styles in */
 @media (min-width: 50em) {
 	.u-lContent .introText {
-		top: 21em;
+		top: 26em;
         left: 1.4em;
 	}
 }
@@ -962,7 +963,7 @@ html.g- {
         font-size: calc(1em + 0.5 * ((100vw - 20em) / 60));
     }
     .g- .u-lContent .introText {
-		top: 21em;
+		top: 26em;
         left: 1.4em;
 	}
     .g- .u-lHeader {
