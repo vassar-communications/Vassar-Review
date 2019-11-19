@@ -211,7 +211,7 @@ b.pipe {
 .u-lContent {
 	.issuesList {
 		list-style-type: none;
-		padding: 0 0 3%;
+		padding: 0;
 		margin-bottom: 5%;
 		margin-top: 1.75em;
 		font-family: $sans-serif;
@@ -287,6 +287,8 @@ b.pipe {
             text-transform: uppercase;
             letter-spacing: .3em;
             font-size: .6em;
+            display: block;
+            text-align: center;
         }
     }
     .u-Excerpt__author {
@@ -324,13 +326,29 @@ b.pipe {
         font-family: $sans-serif;
         margin-bottom: 1.9em;
     }
+    
 	.introText {
-        padding: 0.4em 0.8em;
+		background-color: #fffbf8;
+		padding: 1.5em;
 		position: relative;
+		h2,
+		h3 {
+			margin: 0;
+			width: 100%;
+		}
 		h2 {
-            width: 100%;
-            margin: 0;
-            font: normal 1.2em/1.4 "brandon-grotesque", "Helvetica";
+			font-size: 2em;
+		}
+		h3 {
+			font-family: "freight-text-pro","Georgia";
+			font-size: 1em;
+			text-align: center;
+		}
+		.introTextLine3 {
+			display: block;
+			font-family: $sans-serif;
+			margin-top: .5em;
+			text-transform: uppercase;
 		}
 	}
 }
@@ -388,6 +406,7 @@ b.pipe {
 		.introText {
 			h2 {
 				font-size: 1.602em;
+                font-weight: normal;
 			}
 		}
 	}
@@ -421,15 +440,22 @@ b.pipe {
 	.u-lContent {
 		margin-bottom: 0;
 		.introText {
-            background: rgb(0,0,0);
+            background: black;
             background: rgba(0, 0, 0, 0.6);
 			position: absolute;
 			z-index: 10;
 			left: 0;
 			top: 0;
-            h2 {
-                color: #fff;                
-            }
+			padding: .75em;
+			h2,
+			h3 {
+				text-align: right;
+				margin-left: 0;
+                color: #fff;
+			}
+			h3 {
+				font-size: .81em;
+			}
 		}
 		.u-Figure__caption {
 			text-align: left;
@@ -440,7 +466,7 @@ b.pipe {
 		}
         .u-Excerpt.u-Excerpt--callBar {
             margin: 0;
-            padding: 5.5em 0 1em;
+            padding: 1.5em 0 1em;
         }
 		.u-Excerpt.poetryNarrow .u-Excerpt__paragraph {
 			margin-left: 40%;
@@ -451,7 +477,6 @@ b.pipe {
     .u-lContent {
         .u-Excerpt.u-Excerpt--callBar {
             margin: 0;
-            padding: 6.5em 0 1em;
         }
     }
 }
@@ -489,7 +514,7 @@ b.pipe {
         margin: 2em 0;
     }
     .u-lContent {
-        padding: 0 0 3%;
+        padding: 0;
         .gsc-control-wrapper-cse,
         h1, h2, h3, h4, h5, h6,
         .u-Excerpt__donateButton,
@@ -551,7 +576,7 @@ b.pipe {
             padding-bottom: 36.5%;
         }
 		.u-Figure--coverImage {
-			margin-top: -3.6em;
+			margin: 0 !important;
 		}
 		.issuesList {
 			overflow: hidden;
@@ -602,6 +627,7 @@ b.pipe {
         margin: 10em 0 5em;
     }
     .u-lContent {
+        padding: 0;
         width: 100%;
         float: none;
     }
@@ -684,10 +710,10 @@ b.pipe {
 		}
 		.u-Figure--coverImage .u-Figure__caption {
 			position: absolute;
-			top: 1em;
+			top: 6em;
 			right: 1em;
 		}
-		.u-Figure--coverImage {
+		.u-pageHome .u-Figure.u-Figure--coverImage {
 			margin-top: 0;
 		}
 	}
@@ -903,7 +929,7 @@ h4.asideSect__vrid {
 /* global nav styles in */
 @media (min-width: 50em) {
 	.u-lContent .introText {
-        top: 6.8em;
+		top: 26em;
         left: 1.4em;
 	}
 }
@@ -937,7 +963,7 @@ html.g- {
         font-size: calc(1em + 0.5 * ((100vw - 20em) / 60));
     }
     .g- .u-lContent .introText {
-        top: 1.8em;
+		top: 26em;
         left: 1.4em;
 	}
     .g- .u-lHeader {
@@ -1314,7 +1340,7 @@ body {
 
 .u-pageHome {
 	.u-Figure {
-		margin: 0;
+		margin: 2em 0;
 	}
 	.u-Figure__caption {
 		position: static;
@@ -1405,6 +1431,25 @@ body {
 .digital-edition-home {
 	text-align: center;
 }
+
+/*
+
+@media (min-width: 50em) {
+	.u-pageInner .u-lMain {
+	    margin: 4.5em 0 5em;
+	    margin: 6em 0 5em;
+	}
+}
+body {
+	background: #303030;
+}
+.u-lHeader {
+	background: transparent;
+}
+.u-lMain {
+	background: #efefef;
+}
+*/
 
 // @media (min-width: $small) {
 //	#mackey {
